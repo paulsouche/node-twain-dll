@@ -1,0 +1,881 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Prog\\Node\\\\node.exe',
+1 verbose cli   'C:\\Prog\\Node\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@1.4.3
+3 info using node@v0.10.26
+4 verbose node symlink C:\Prog\Node\\node.exe
+5 verbose readDependencies using package.json deps
+6 verbose install where, deps [ 'C:\\Fichiers\\Sites\\projetsPerso\\gitHub\\nodeTwainDll',
+6 verbose install   [ 'bindings', 'async', 'sf', 'optimist', 'nan' ] ]
+7 info preinstall twainDll@0.0.1
+8 verbose readDependencies using package.json deps
+9 verbose cache add [ 'bindings@1.1.1', null ]
+10 verbose cache add name=undefined spec="bindings@1.1.1" args=["bindings@1.1.1",null]
+11 verbose parsed url { protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'bindings@1.1.1',
+11 verbose parsed url   path: 'bindings@1.1.1',
+11 verbose parsed url   href: 'bindings@1.1.1' }
+12 verbose cache add name="bindings" spec="1.1.1" args=["bindings","1.1.1"]
+13 verbose parsed url { protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: '1.1.1',
+13 verbose parsed url   path: '1.1.1',
+13 verbose parsed url   href: '1.1.1' }
+14 verbose addNamed [ 'bindings', '1.1.1' ]
+15 verbose addNamed [ '1.1.1', '1.1.1' ]
+16 verbose cache add [ 'async@0.1.18', null ]
+17 verbose cache add name=undefined spec="async@0.1.18" args=["async@0.1.18",null]
+18 verbose parsed url { protocol: null,
+18 verbose parsed url   slashes: null,
+18 verbose parsed url   auth: null,
+18 verbose parsed url   host: null,
+18 verbose parsed url   port: null,
+18 verbose parsed url   hostname: null,
+18 verbose parsed url   hash: null,
+18 verbose parsed url   search: null,
+18 verbose parsed url   query: null,
+18 verbose parsed url   pathname: 'async@0.1.18',
+18 verbose parsed url   path: 'async@0.1.18',
+18 verbose parsed url   href: 'async@0.1.18' }
+19 verbose cache add name="async" spec="0.1.18" args=["async","0.1.18"]
+20 verbose parsed url { protocol: null,
+20 verbose parsed url   slashes: null,
+20 verbose parsed url   auth: null,
+20 verbose parsed url   host: null,
+20 verbose parsed url   port: null,
+20 verbose parsed url   hostname: null,
+20 verbose parsed url   hash: null,
+20 verbose parsed url   search: null,
+20 verbose parsed url   query: null,
+20 verbose parsed url   pathname: '0.1.18',
+20 verbose parsed url   path: '0.1.18',
+20 verbose parsed url   href: '0.1.18' }
+21 verbose addNamed [ 'async', '0.1.18' ]
+22 verbose addNamed [ '0.1.18', '0.1.18' ]
+23 verbose cache add [ 'sf@0.1.6', null ]
+24 verbose cache add name=undefined spec="sf@0.1.6" args=["sf@0.1.6",null]
+25 verbose parsed url { protocol: null,
+25 verbose parsed url   slashes: null,
+25 verbose parsed url   auth: null,
+25 verbose parsed url   host: null,
+25 verbose parsed url   port: null,
+25 verbose parsed url   hostname: null,
+25 verbose parsed url   hash: null,
+25 verbose parsed url   search: null,
+25 verbose parsed url   query: null,
+25 verbose parsed url   pathname: 'sf@0.1.6',
+25 verbose parsed url   path: 'sf@0.1.6',
+25 verbose parsed url   href: 'sf@0.1.6' }
+26 verbose cache add name="sf" spec="0.1.6" args=["sf","0.1.6"]
+27 verbose parsed url { protocol: null,
+27 verbose parsed url   slashes: null,
+27 verbose parsed url   auth: null,
+27 verbose parsed url   host: null,
+27 verbose parsed url   port: null,
+27 verbose parsed url   hostname: null,
+27 verbose parsed url   hash: null,
+27 verbose parsed url   search: null,
+27 verbose parsed url   query: null,
+27 verbose parsed url   pathname: '0.1.6',
+27 verbose parsed url   path: '0.1.6',
+27 verbose parsed url   href: '0.1.6' }
+28 verbose addNamed [ 'sf', '0.1.6' ]
+29 verbose addNamed [ '0.1.6', '0.1.6' ]
+30 verbose cache add [ 'optimist@~0.3.4', null ]
+31 verbose cache add name=undefined spec="optimist@~0.3.4" args=["optimist@~0.3.4",null]
+32 verbose parsed url { protocol: null,
+32 verbose parsed url   slashes: null,
+32 verbose parsed url   auth: null,
+32 verbose parsed url   host: null,
+32 verbose parsed url   port: null,
+32 verbose parsed url   hostname: null,
+32 verbose parsed url   hash: null,
+32 verbose parsed url   search: null,
+32 verbose parsed url   query: null,
+32 verbose parsed url   pathname: 'optimist@~0.3.4',
+32 verbose parsed url   path: 'optimist@~0.3.4',
+32 verbose parsed url   href: 'optimist@~0.3.4' }
+33 verbose cache add name="optimist" spec="~0.3.4" args=["optimist","~0.3.4"]
+34 verbose parsed url { protocol: null,
+34 verbose parsed url   slashes: null,
+34 verbose parsed url   auth: null,
+34 verbose parsed url   host: null,
+34 verbose parsed url   port: null,
+34 verbose parsed url   hostname: null,
+34 verbose parsed url   hash: null,
+34 verbose parsed url   search: null,
+34 verbose parsed url   query: null,
+34 verbose parsed url   pathname: '~0.3.4',
+34 verbose parsed url   path: '~0.3.4',
+34 verbose parsed url   href: '~0.3.4' }
+35 verbose addNamed [ 'optimist', '~0.3.4' ]
+36 verbose addNamed [ null, '>=0.3.4-0 <0.4.0-0' ]
+37 verbose cache add [ 'nan@~0.7.0', null ]
+38 verbose cache add name=undefined spec="nan@~0.7.0" args=["nan@~0.7.0",null]
+39 verbose parsed url { protocol: null,
+39 verbose parsed url   slashes: null,
+39 verbose parsed url   auth: null,
+39 verbose parsed url   host: null,
+39 verbose parsed url   port: null,
+39 verbose parsed url   hostname: null,
+39 verbose parsed url   hash: null,
+39 verbose parsed url   search: null,
+39 verbose parsed url   query: null,
+39 verbose parsed url   pathname: 'nan@~0.7.0',
+39 verbose parsed url   path: 'nan@~0.7.0',
+39 verbose parsed url   href: 'nan@~0.7.0' }
+40 verbose cache add name="nan" spec="~0.7.0" args=["nan","~0.7.0"]
+41 verbose parsed url { protocol: null,
+41 verbose parsed url   slashes: null,
+41 verbose parsed url   auth: null,
+41 verbose parsed url   host: null,
+41 verbose parsed url   port: null,
+41 verbose parsed url   hostname: null,
+41 verbose parsed url   hash: null,
+41 verbose parsed url   search: null,
+41 verbose parsed url   query: null,
+41 verbose parsed url   pathname: '~0.7.0',
+41 verbose parsed url   path: '~0.7.0',
+41 verbose parsed url   href: '~0.7.0' }
+42 verbose addNamed [ 'nan', '~0.7.0' ]
+43 verbose addNamed [ null, '>=0.7.0-0 <0.8.0-0' ]
+44 silly lockFile 52dd60a7-bindings-1-1-1 bindings@1.1.1
+45 verbose lock bindings@1.1.1 C:\Users\sfeir\AppData\Roaming\npm-cache\52dd60a7-bindings-1-1-1.lock
+46 silly lockFile b86dcd49-async-0-1-18 async@0.1.18
+47 verbose lock async@0.1.18 C:\Users\sfeir\AppData\Roaming\npm-cache\b86dcd49-async-0-1-18.lock
+48 silly lockFile cae65a0c-sf-0-1-6 sf@0.1.6
+49 verbose lock sf@0.1.6 C:\Users\sfeir\AppData\Roaming\npm-cache\cae65a0c-sf-0-1-6.lock
+50 silly lockFile 094c60bd-optimist-0-3-4 optimist@~0.3.4
+51 verbose lock optimist@~0.3.4 C:\Users\sfeir\AppData\Roaming\npm-cache\094c60bd-optimist-0-3-4.lock
+52 silly lockFile 9df25a33-nan-0-7-0 nan@~0.7.0
+53 verbose lock nan@~0.7.0 C:\Users\sfeir\AppData\Roaming\npm-cache\9df25a33-nan-0-7-0.lock
+54 silly addNameRange { name: 'optimist', range: '>=0.3.4-0 <0.4.0-0', hasData: false }
+55 silly addNameRange { name: 'nan', range: '>=0.7.0-0 <0.8.0-0', hasData: false }
+56 verbose url raw bindings/1.1.1
+57 verbose url resolving [ 'https://registry.npmjs.org/', './bindings/1.1.1' ]
+58 verbose url resolved https://registry.npmjs.org/bindings/1.1.1
+59 info trying registry request attempt 1 at 20:00:25
+60 verbose etag "HHDEMUMZU8OTS1DUFQCBQQ8Z"
+61 http GET https://registry.npmjs.org/bindings/1.1.1
+62 verbose url raw optimist
+63 verbose url resolving [ 'https://registry.npmjs.org/', './optimist' ]
+64 verbose url resolved https://registry.npmjs.org/optimist
+65 info trying registry request attempt 1 at 20:00:25
+66 verbose etag "21AXQNZABFA8P32ZZ3ZSWK8JS"
+67 http GET https://registry.npmjs.org/optimist
+68 verbose url raw async/0.1.18
+69 verbose url resolving [ 'https://registry.npmjs.org/', './async/0.1.18' ]
+70 verbose url resolved https://registry.npmjs.org/async/0.1.18
+71 info trying registry request attempt 1 at 20:00:25
+72 verbose etag "C7WLQPX5KSXGXH0DC5LOLDGO6"
+73 http GET https://registry.npmjs.org/async/0.1.18
+74 verbose url raw sf/0.1.6
+75 verbose url resolving [ 'https://registry.npmjs.org/', './sf/0.1.6' ]
+76 verbose url resolved https://registry.npmjs.org/sf/0.1.6
+77 info trying registry request attempt 1 at 20:00:25
+78 verbose etag "4RDTKM4OFD65QBHH3575EB7DQ"
+79 http GET https://registry.npmjs.org/sf/0.1.6
+80 verbose url raw nan
+81 verbose url resolving [ 'https://registry.npmjs.org/', './nan' ]
+82 verbose url resolved https://registry.npmjs.org/nan
+83 info trying registry request attempt 1 at 20:00:25
+84 verbose etag "1V4L4UHAMWZFH6I69YC8D2UBS"
+85 http GET https://registry.npmjs.org/nan
+86 http 304 https://registry.npmjs.org/optimist
+87 silly registry.get cb [ 304,
+87 silly registry.get   { date: 'Wed, 20 Aug 2014 18:02:35 GMT',
+87 silly registry.get     server: 'Apache',
+87 silly registry.get     via: '1.1 varnish',
+87 silly registry.get     'last-modified': 'Wed, 20 Aug 2014 18:02:01 GMT',
+87 silly registry.get     'cache-control': 'max-age=60',
+87 silly registry.get     etag: '"21AXQNZABFA8P32ZZ3ZSWK8JS"',
+87 silly registry.get     'x-served-by': 'cache-fra1220-FRA',
+87 silly registry.get     'x-cache': 'HIT',
+87 silly registry.get     'x-cache-hits': '2',
+87 silly registry.get     'x-timer': 'S1408557755.234391,VS0,VE0',
+87 silly registry.get     vary: 'Accept',
+87 silly registry.get     'content-length': '0',
+87 silly registry.get     'keep-alive': 'timeout=10, max=50',
+87 silly registry.get     connection: 'Keep-Alive' } ]
+88 verbose etag optimist from cache
+89 http 304 https://registry.npmjs.org/nan
+90 silly registry.get cb [ 304,
+90 silly registry.get   { date: 'Wed, 20 Aug 2014 18:02:35 GMT',
+90 silly registry.get     server: 'Apache',
+90 silly registry.get     via: '1.1 varnish',
+90 silly registry.get     'last-modified': 'Wed, 20 Aug 2014 18:02:35 GMT',
+90 silly registry.get     'cache-control': 'max-age=60',
+90 silly registry.get     etag: '"1V4L4UHAMWZFH6I69YC8D2UBS"',
+90 silly registry.get     'x-served-by': 'cache-fra1228-FRA',
+90 silly registry.get     'x-cache': 'HIT',
+90 silly registry.get     'x-cache-hits': '1',
+90 silly registry.get     'x-timer': 'S1408557755.238931,VS0,VE0',
+90 silly registry.get     vary: 'Accept',
+90 silly registry.get     'content-length': '0',
+90 silly registry.get     'keep-alive': 'timeout=10, max=50',
+90 silly registry.get     connection: 'Keep-Alive' } ]
+91 verbose etag nan from cache
+92 silly addNameRange number 2 { name: 'optimist', range: '>=0.3.4-0 <0.4.0-0', hasData: true }
+93 silly addNameRange versions [ 'optimist',
+93 silly addNameRange   [ '0.0.1',
+93 silly addNameRange     '0.0.2',
+93 silly addNameRange     '0.0.4',
+93 silly addNameRange     '0.0.5',
+93 silly addNameRange     '0.0.6',
+93 silly addNameRange     '0.0.7',
+93 silly addNameRange     '0.1.0',
+93 silly addNameRange     '0.1.1',
+93 silly addNameRange     '0.1.2',
+93 silly addNameRange     '0.1.3',
+93 silly addNameRange     '0.1.4',
+93 silly addNameRange     '0.1.5',
+93 silly addNameRange     '0.1.6',
+93 silly addNameRange     '0.1.7',
+93 silly addNameRange     '0.1.8',
+93 silly addNameRange     '0.1.9',
+93 silly addNameRange     '0.0.3',
+93 silly addNameRange     '0.2.0',
+93 silly addNameRange     '0.2.1',
+93 silly addNameRange     '0.2.2',
+93 silly addNameRange     '0.2.3',
+93 silly addNameRange     '0.2.4',
+93 silly addNameRange     '0.2.5',
+93 silly addNameRange     '0.2.6',
+93 silly addNameRange     '0.2.7',
+93 silly addNameRange     '0.2.8',
+93 silly addNameRange     '0.3.0',
+93 silly addNameRange     '0.3.1',
+93 silly addNameRange     '0.3.3',
+93 silly addNameRange     '0.3.4',
+93 silly addNameRange     '0.3.5',
+93 silly addNameRange     '0.3.6',
+93 silly addNameRange     '0.3.7',
+93 silly addNameRange     '0.4.0',
+93 silly addNameRange     '0.5.0',
+93 silly addNameRange     '0.5.1',
+93 silly addNameRange     '0.5.2',
+93 silly addNameRange     '0.6.0',
+93 silly addNameRange     '0.6.1' ] ]
+94 verbose addNamed [ 'optimist', '0.3.7' ]
+95 verbose addNamed [ '0.3.7', '0.3.7' ]
+96 silly lockFile 090e1d8d-optimist-0-3-7 optimist@0.3.7
+97 verbose lock optimist@0.3.7 C:\Users\sfeir\AppData\Roaming\npm-cache\090e1d8d-optimist-0-3-7.lock
+98 silly addNameRange number 2 { name: 'nan', range: '>=0.7.0-0 <0.8.0-0', hasData: true }
+99 silly addNameRange versions [ 'nan',
+99 silly addNameRange   [ '0.3.0-wip',
+99 silly addNameRange     '0.3.0-wip2',
+99 silly addNameRange     '0.3.0',
+99 silly addNameRange     '0.3.1',
+99 silly addNameRange     '0.3.2',
+99 silly addNameRange     '0.4.0',
+99 silly addNameRange     '0.4.1',
+99 silly addNameRange     '0.4.2',
+99 silly addNameRange     '0.4.3',
+99 silly addNameRange     '0.4.4',
+99 silly addNameRange     '0.5.0',
+99 silly addNameRange     '0.5.1',
+99 silly addNameRange     '0.5.2',
+99 silly addNameRange     '0.6.0',
+99 silly addNameRange     '0.7.0',
+99 silly addNameRange     '0.7.1',
+99 silly addNameRange     '0.8.0',
+99 silly addNameRange     '1.0.0',
+99 silly addNameRange     '1.1.0',
+99 silly addNameRange     '1.1.1',
+99 silly addNameRange     '1.1.2',
+99 silly addNameRange     '1.2.0',
+99 silly addNameRange     '1.3.0' ] ]
+100 verbose addNamed [ 'nan', '0.7.1' ]
+101 verbose addNamed [ '0.7.1', '0.7.1' ]
+102 silly lockFile f54c0d1e-nan-0-7-1 nan@0.7.1
+103 verbose lock nan@0.7.1 C:\Users\sfeir\AppData\Roaming\npm-cache\f54c0d1e-nan-0-7-1.lock
+104 silly lockFile 090e1d8d-optimist-0-3-7 optimist@0.3.7
+105 silly lockFile 090e1d8d-optimist-0-3-7 optimist@0.3.7
+106 silly lockFile f54c0d1e-nan-0-7-1 nan@0.7.1
+107 silly lockFile f54c0d1e-nan-0-7-1 nan@0.7.1
+108 silly lockFile 094c60bd-optimist-0-3-4 optimist@~0.3.4
+109 silly lockFile 094c60bd-optimist-0-3-4 optimist@~0.3.4
+110 silly lockFile 9df25a33-nan-0-7-0 nan@~0.7.0
+111 silly lockFile 9df25a33-nan-0-7-0 nan@~0.7.0
+112 http 304 https://registry.npmjs.org/async/0.1.18
+113 silly registry.get cb [ 304,
+113 silly registry.get   { date: 'Wed, 20 Aug 2014 18:02:35 GMT',
+113 silly registry.get     server: 'Apache',
+113 silly registry.get     via: '1.1 varnish',
+113 silly registry.get     'last-modified': 'Wed, 20 Aug 2014 18:02:35 GMT',
+113 silly registry.get     'cache-control': 'max-age=60',
+113 silly registry.get     etag: '"C7WLQPX5KSXGXH0DC5LOLDGO6"',
+113 silly registry.get     'x-served-by': 'cache-fra1224-FRA',
+113 silly registry.get     'x-cache': 'MISS',
+113 silly registry.get     'x-cache-hits': '0',
+113 silly registry.get     'x-timer': 'S1408557755.238443,VS0,VE173',
+113 silly registry.get     vary: 'Accept',
+113 silly registry.get     'content-length': '0',
+113 silly registry.get     'keep-alive': 'timeout=10, max=50',
+113 silly registry.get     connection: 'Keep-Alive' } ]
+114 verbose etag async/0.1.18 from cache
+115 http 304 https://registry.npmjs.org/bindings/1.1.1
+116 silly registry.get cb [ 304,
+116 silly registry.get   { date: 'Wed, 20 Aug 2014 18:02:35 GMT',
+116 silly registry.get     server: 'Apache',
+116 silly registry.get     via: '1.1 varnish',
+116 silly registry.get     'last-modified': 'Wed, 20 Aug 2014 18:02:35 GMT',
+116 silly registry.get     'cache-control': 'max-age=60',
+116 silly registry.get     etag: '"HHDEMUMZU8OTS1DUFQCBQQ8Z"',
+116 silly registry.get     'x-served-by': 'cache-fra1226-FRA',
+116 silly registry.get     'x-cache': 'MISS',
+116 silly registry.get     'x-cache-hits': '0',
+116 silly registry.get     'x-timer': 'S1408557755.240204,VS0,VE174',
+116 silly registry.get     vary: 'Accept',
+116 silly registry.get     'content-length': '0',
+116 silly registry.get     'keep-alive': 'timeout=10, max=50',
+116 silly registry.get     connection: 'Keep-Alive' } ]
+117 verbose etag bindings/1.1.1 from cache
+118 http 304 https://registry.npmjs.org/sf/0.1.6
+119 silly registry.get cb [ 304,
+119 silly registry.get   { date: 'Wed, 20 Aug 2014 18:02:35 GMT',
+119 silly registry.get     server: 'Apache',
+119 silly registry.get     via: '1.1 varnish',
+119 silly registry.get     'last-modified': 'Wed, 20 Aug 2014 18:02:35 GMT',
+119 silly registry.get     'cache-control': 'max-age=60',
+119 silly registry.get     etag: '"4RDTKM4OFD65QBHH3575EB7DQ"',
+119 silly registry.get     'x-served-by': 'cache-fra1221-FRA',
+119 silly registry.get     'x-cache': 'MISS',
+119 silly registry.get     'x-cache-hits': '0',
+119 silly registry.get     'x-timer': 'S1408557755.239590,VS0,VE184',
+119 silly registry.get     vary: 'Accept',
+119 silly registry.get     'content-length': '0',
+119 silly registry.get     'keep-alive': 'timeout=10, max=50',
+119 silly registry.get     connection: 'Keep-Alive' } ]
+120 verbose etag sf/0.1.6 from cache
+121 silly lockFile b86dcd49-async-0-1-18 async@0.1.18
+122 silly lockFile b86dcd49-async-0-1-18 async@0.1.18
+123 silly lockFile 52dd60a7-bindings-1-1-1 bindings@1.1.1
+124 silly lockFile 52dd60a7-bindings-1-1-1 bindings@1.1.1
+125 silly lockFile cae65a0c-sf-0-1-6 sf@0.1.6
+126 silly lockFile cae65a0c-sf-0-1-6 sf@0.1.6
+127 silly resolved [ { name: 'optimist',
+127 silly resolved     version: '0.3.7',
+127 silly resolved     description: 'Light-weight option parsing with an argv hash. No optstrings attached.',
+127 silly resolved     main: './index.js',
+127 silly resolved     dependencies: { wordwrap: '~0.0.2' },
+127 silly resolved     devDependencies: { hashish: '~0.0.4', tap: '~0.4.0' },
+127 silly resolved     scripts: { test: 'tap ./test/*.js' },
+127 silly resolved     repository:
+127 silly resolved      { type: 'git',
+127 silly resolved        url: 'http://github.com/substack/node-optimist.git' },
+127 silly resolved     keywords:
+127 silly resolved      [ 'argument',
+127 silly resolved        'args',
+127 silly resolved        'option',
+127 silly resolved        'parser',
+127 silly resolved        'parsing',
+127 silly resolved        'cli',
+127 silly resolved        'command' ],
+127 silly resolved     author:
+127 silly resolved      { name: 'James Halliday',
+127 silly resolved        email: 'mail@substack.net',
+127 silly resolved        url: 'http://substack.net' },
+127 silly resolved     license: 'MIT/X11',
+127 silly resolved     engine: { node: '>=0.4' },
+127 silly resolved     readme: 'optimist\n========\n\nOptimist is a node.js library for option parsing for people who hate option\nparsing. More specifically, this module is for people who like all the --bells\nand -whistlz of program usage but think optstrings are a waste of time.\n\nWith optimist, option parsing doesn\'t have to suck (as much).\n\n[![build status](https://secure.travis-ci.org/substack/node-optimist.png)](http://travis-ci.org/substack/node-optimist)\n\nexamples\n========\n\nWith Optimist, the options are just a hash! No optstrings attached.\n-------------------------------------------------------------------\n\nxup.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\n\nif (argv.rif - 5 * argv.xup > 7.138) {\n    console.log(\'Buy more riffiwobbles\');\n}\nelse {\n    console.log(\'Sell the xupptumblers\');\n}\n````\n\n***\n\n    $ ./xup.js --rif=55 --xup=9.52\n    Buy more riffiwobbles\n    \n    $ ./xup.js --rif 12 --xup 8.1\n    Sell the xupptumblers\n\n![This one\'s optimistic.](http://substack.net/images/optimistic.png)\n\nBut wait! There\'s more! You can do short options:\n-------------------------------------------------\n \nshort.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\n````\n\n***\n\n    $ ./short.js -x 10 -y 21\n    (10,21)\n\nAnd booleans, both long and short (and grouped):\n----------------------------------\n\nbool.js:\n\n````javascript\n#!/usr/bin/env node\nvar util = require(\'util\');\nvar argv = require(\'optimist\').argv;\n\nif (argv.s) {\n    util.print(argv.fr ? \'Le chat dit: \' : \'The cat says: \');\n}\nconsole.log(\n    (argv.fr ? \'miaou\' : \'meow\') + (argv.p ? \'.\' : \'\')\n);\n````\n\n***\n\n    $ ./bool.js -s\n    The cat says: meow\n    \n    $ ./bool.js -sp\n    The cat says: meow.\n\n    $ ./bool.js -sp --fr\n    Le chat dit: miaou.\n\nAnd non-hypenated options too! Just use `argv._`!\n-------------------------------------------------\n \nnonopt.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\').argv;\nconsole.log(\'(%d,%d)\', argv.x, argv.y);\nconsole.log(argv._);\n````\n\n***\n\n    $ ./nonopt.js -x 6.82 -y 3.35 moo\n    (6.82,3.35)\n    [ \'moo\' ]\n    \n    $ ./nonopt.js foo -x 0.54 bar -y 1.12 baz\n    (0.54,1.12)\n    [ \'foo\', \'bar\', \'baz\' ]\n\nPlus, Optimist comes with .usage() and .demand()!\n-------------------------------------------------\n\ndivide.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Usage: $0 -x [num] -y [num]\')\n    .demand([\'x\',\'y\'])\n    .argv;\n\nconsole.log(argv.x / argv.y);\n````\n\n***\n \n    $ ./divide.js -x 55 -y 11\n    5\n    \n    $ node ./divide.js -x 4.91 -z 2.51\n    Usage: node ./divide.js -x [num] -y [num]\n\n    Options:\n      -x  [required]\n      -y  [required]\n\n    Missing required arguments: y\n\nEVEN MORE HOLY COW\n------------------\n\ndefault_singles.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default(\'x\', 10)\n    .default(\'y\', 10)\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_singles.js -x 5\n    15\n\ndefault_hash.js:\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .default({ x : 10, y : 10 })\n    .argv\n;\nconsole.log(argv.x + argv.y);\n````\n\n***\n\n    $ ./default_hash.js -y 7\n    17\n\nAnd if you really want to get all descriptive about it...\n---------------------------------------------------------\n\nboolean_single.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean(\'v\')\n    .argv\n;\nconsole.dir(argv);\n````\n\n***\n\n    $ ./boolean_single.js -v foo bar baz\n    true\n    [ \'bar\', \'baz\', \'foo\' ]\n\nboolean_double.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .boolean([\'x\',\'y\',\'z\'])\n    .argv\n;\nconsole.dir([ argv.x, argv.y, argv.z ]);\nconsole.dir(argv._);\n````\n\n***\n\n    $ ./boolean_double.js -x -z one two three\n    [ true, false, true ]\n    [ \'one\', \'two\', \'three\' ]\n\nOptimist is here to help...\n---------------------------\n\nYou can describe parameters for help messages and set aliases. Optimist figures\nout how to format a handy help string automatically.\n\nline_count.js\n\n````javascript\n#!/usr/bin/env node\nvar argv = require(\'optimist\')\n    .usage(\'Count the lines in a file.\\nUsage: $0\')\n    .demand(\'f\')\n    .alias(\'f\', \'file\')\n    .describe(\'f\', \'Load a file\')\n    .argv\n;\n\nvar fs = require(\'fs\');\nvar s = fs.createReadStream(argv.file);\n\nvar lines = 0;\ns.on(\'data\', function (buf) {\n    lines += buf.toString().match(/\\n/g).length;\n});\n\ns.on(\'end\', function () {\n    console.log(lines);\n});\n````\n\n***\n\n    $ node line_count.js\n    Count the lines in a file.\n    Usage: node ./line_count.js\n\n    Options:\n      -f, --file  Load a file  [required]\n\n    Missing required arguments: f\n\n    $ node line_count.js --file line_count.js \n    20\n    \n    $ node line_count.js -f line_count.js \n    20\n\nmethods\n=======\n\nBy itself,\n\n````javascript\nrequire(\'optimist\').argv\n`````\n\nwill use `process.argv` array to construct the `argv` object.\n\nYou can pass in the `process.argv` yourself:\n\n````javascript\nrequire(\'optimist\')([ \'-x\', \'1\', \'-y\', \'2\' ]).argv\n````\n\nor use .parse() to do the same thing:\n\n````javascript\nrequire(\'optimist\').parse([ \'-x\', \'1\', \'-y\', \'2\' ])\n````\n\nThe rest of these methods below come in just before the terminating `.argv`.\n\n.alias(key, alias)\n------------------\n\nSet key names as equivalent such that updates to a key will propagate to aliases\nand vice-versa.\n\nOptionally `.alias()` can take an object that maps keys to aliases.\n\n.default(key, value)\n--------------------\n\nSet `argv[key]` to `value` if no option was specified on `process.argv`.\n\nOptionally `.default()` can take an object that maps keys to default values.\n\n.demand(key)\n------------\n\nIf `key` is a string, show the usage information and exit if `key` wasn\'t\nspecified in `process.argv`.\n\nIf `key` is a number, demand at least as many non-option arguments, which show\nup in `argv._`.\n\nIf `key` is an Array, demand each element.\n\n.describe(key, desc)\n--------------------\n\nDescribe a `key` for the generated usage information.\n\nOptionally `.describe()` can take an object that maps keys to descriptions.\n\n.options(key, opt)\n------------------\n\nInstead of chaining together `.alias().demand().default()`, you can specify\nkeys in `opt` for each of the chainable methods.\n\nFor example:\n\n````javascript\nvar argv = require(\'optimist\')\n    .options(\'f\', {\n        alias : \'file\',\n        default : \'/etc/passwd\',\n    })\n    .argv\n;\n````\n\nis the same as\n\n````javascript\nvar argv = require(\'optimist\')\n    .alias(\'f\', \'file\')\n    .default(\'f\', \'/etc/passwd\')\n    .argv\n;\n````\n\nOptionally `.options()` can take an object that maps keys to `opt` parameters.\n\n.usage(message)\n---------------\n\nSet a usage message to show which commands to use. Inside `message`, the string\n`$0` will get interpolated to the current script name or node command for the\npresent script similar to how `$0` works in bash or perl.\n\n.check(fn)\n----------\n\nCheck that certain conditions are met in the provided arguments.\n\nIf `fn` throws or returns `false`, show the thrown error, usage information, and\nexit.\n\n.boolean(key)\n-------------\n\nInterpret `key` as a boolean. If a non-flag option follows `key` in\n`process.argv`, that string won\'t get set as the value of `key`.\n\nIf `key` never shows up as a flag in `process.arguments`, `argv[key]` will be\n`false`.\n\nIf `key` is an Array, interpret all the elements as booleans.\n\n.string(key)\n------------\n\nTell the parser logic not to interpret `key` as a number or boolean.\nThis can be useful if you need to preserve leading zeros in an input.\n\nIf `key` is an Array, interpret all the elements as strings.\n\n.wrap(columns)\n--------------\n\nFormat usage output to wrap at `columns` many columns.\n\n.help()\n-------\n\nReturn the generated usage string.\n\n.showHelp(fn=console.error)\n---------------------------\n\nPrint the usage data using `fn` for printing.\n\n.parse(args)\n------------\n\nParse `args` instead of `process.argv`. Returns the `argv` object.\n\n.argv\n-----\n\nGet the arguments as a plain old object.\n\nArguments without a corresponding flag show up in the `argv._` array.\n\nThe script name or node command is available at `argv.$0` similarly to how `$0`\nworks in bash or perl.\n\nparsing tricks\n==============\n\nstop parsing\n------------\n\nUse `--` to stop parsing flags and stuff the remainder into `argv._`.\n\n    $ node examples/reflect.js -a 1 -b 2 -- -c 3 -d 4\n    { _: [ \'-c\', \'3\', \'-d\', \'4\' ],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: 1,\n      b: 2 }\n\nnegate fields\n-------------\n\nIf you want to explicity set a field to false instead of just leaving it\nundefined or to override a default you can do `--no-key`.\n\n    $ node examples/reflect.js -a --no-b\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n      a: true,\n      b: false }\n\nnumbers\n-------\n\nEvery argument that looks like a number (`!isNaN(Number(arg))`) is converted to\none. This way you can just `net.createConnection(argv.port)` and you can add\nnumbers out of `argv` with `+` without having that mean concatenation,\nwhich is super frustrating.\n\nduplicates\n----------\n\nIf you specify a flag multiple times it will get turned into an array containing\nall the values in order.\n\n    $ node examples/reflect.js -x 5 -x 8 -x 0\n    { _: [],\n      \'$0\': \'node ./examples/reflect.js\',\n        x: [ 5, 8, 0 ] }\n\ndot notation\n------------\n\nWhen you use dots (`.`s) in argument names, an implicit object path is assumed.\nThis lets you organize arguments into nested objects.\n\n     $ node examples/reflect.js --foo.bar.baz=33 --foo.quux=5\n     { _: [],\n       \'$0\': \'node ./examples/reflect.js\',\n         foo: { bar: { baz: 33 }, quux: 5 } }\n\ninstallation\n============\n\nWith [npm](http://github.com/isaacs/npm), just do:\n    npm install optimist\n \nor clone this project on github:\n\n    git clone http://github.com/substack/node-optimist.git\n\nTo run the tests with [expresso](http://github.com/visionmedia/expresso),\njust do:\n    \n    expresso\n\ninspired By\n===========\n\nThis module is loosely inspired by Perl\'s\n[Getopt::Casual](http://search.cpan.org/~photo/Getopt-Casual-0.13.1/Casual.pm).\n',
+127 silly resolved     readmeFilename: 'readme.markdown',
+127 silly resolved     bugs: { url: 'https://github.com/substack/node-optimist/issues' },
+127 silly resolved     homepage: 'https://github.com/substack/node-optimist',
+127 silly resolved     _id: 'optimist@0.3.7',
+127 silly resolved     _from: 'optimist@~0.3.4' },
+127 silly resolved   { name: 'nan',
+127 silly resolved     version: '0.7.1',
+127 silly resolved     description: 'Native Abstractions for Node.js: C++ header for Node 0.8->0.12 compatibility',
+127 silly resolved     main: 'include_dirs.js',
+127 silly resolved     repository: { type: 'git', url: 'git://github.com/rvagg/nan.git' },
+127 silly resolved     contributors: [ [Object], [Object], [Object], [Object], [Object], [Object] ],
+127 silly resolved     license: 'MIT',
+127 silly resolved     readme: 'Native Abstractions for Node.js\n===============================\n\n**A header file filled with macro and utility goodness for making add-on development for Node.js easier across versions 0.8, 0.10 and 0.11, and eventually 0.12.**\n\n***Current version: 0.7.1*** *(See [nan.h](https://github.com/rvagg/nan/blob/master/nan.h) for complete ChangeLog)*\n\n[![NPM](https://nodei.co/npm/nan.png?downloads=true)](https://nodei.co/npm/nan/) [![NPM](https://nodei.co/npm-dl/nan.png?months=6)](https://nodei.co/npm/nan/)\n\nThanks to the crazy changes in V8 (and some in Node core), keeping native addons compiling happily across versions, particularly 0.10 to 0.11/0.12, is a minor nightmare. The goal of this project is to store all logic necessary to develop native Node.js addons without having to inspect `NODE_MODULE_VERSION` and get yourself into a macro-tangle.\n\nThis project also contains some helper utilities that make addon development a bit more pleasant.\n\n * **[News & Updates](#news)**\n * **[Usage](#usage)**\n * **[Example](#example)**\n * **[API](#api)**\n\n<a name="news"></a>\n## News & Updates\n\n### Dec-2013: NanCString and NanRawString\n\nTwo new functions have been introduced to replace the functionality that\'s been provided by `NanFromV8String` until now. NanCString has sensible defaults so it\'s super easy to fetch a null-terminated c-style string out of a `v8::String`. `NanFromV8String` is still around and has defaults that allow you to pass a single handle to fetch a `char*` while `NanRawString` requires a little more attention to arguments.\n\n### Nov-2013: Node 0.11.9+ breaking V8 change\n\nThe version of V8 that\'s shipping with Node 0.11.9+ has changed the signature for new `Local`s to: `v8::Local<T>::New(isolate, value)`, i.e. introducing the `isolate` argument and therefore breaking all new `Local` declarations for previous versions. NAN 0.6+ now includes a `NanNewLocal<T>(value)` that can be used in place to work around this incompatibility and maintain compatibility with 0.8->0.11.9+ (minus a few early 0.11 releases).\n\nFor example, if you wanted to return a `null` on a callback you will have to change the argument from `v8::Local<v8::Value>::New(v8::Null())` to `NanNewLocal<v8::Value>(v8::Null())`.\n\n### Nov-2013: Change to binding.gyp `"include_dirs"` for NAN\n\nInclusion of NAN in a project\'s binding.gyp is now greatly simplified. You can now just use `"<!(node -e \\"require(\'nan\')\\")"` in your `"include_dirs"`, see example below (note Windows needs the quoting around `require` to be just right: `"require(\'nan\')"` with appropriate `\\` escaping).\n\n<a name="usage"></a>\n## Usage\n\nSimply add **NAN** as a dependency in the *package.json* of your Node addon:\n\n``` bash\n$ npm install --save nan\n```\n\nPull in the path to **NAN** in your *binding.gyp* so that you can use `#include "nan.h"` in your *.cpp* files:\n\n``` python\n"include_dirs" : [\n    "<!(node -e \\"require(\'nan\')\\")"\n]\n```\n\nThis works like a `-I<path-to-NAN>` when compiling your addon.\n\n<a name="example"></a>\n## Example\n\nSee **[LevelDOWN](https://github.com/rvagg/node-leveldown/pull/48)** for a full example of **NAN** in use.\n\nFor a simpler example, see the **[async pi estimation example](https://github.com/rvagg/nan/tree/master/examples/async_pi_estimate)** in the examples directory for full code and an explanation of what this Monte Carlo Pi estimation example does. Below are just some parts of the full example that illustrate the use of **NAN**.\n\nCompare to the current 0.10 version of this example, found in the [node-addon-examples](https://github.com/rvagg/node-addon-examples/tree/master/9_async_work) repository and also a 0.11 version of the same found [here](https://github.com/kkoopa/node-addon-examples/tree/5c01f58fc993377a567812597e54a83af69686d7/9_async_work).\n\nNote that there is no embedded version sniffing going on here and also the async work is made much simpler, see below for details on the `NanAsyncWorker` class.\n\n```c++\n// addon.cc\n#include <node.h>\n#include "nan.h"\n// ...\n\nusing namespace v8;\n\nvoid InitAll(Handle<Object> exports) {\n  exports->Set(NanSymbol("calculateSync"),\n    FunctionTemplate::New(CalculateSync)->GetFunction());\n\n  exports->Set(NanSymbol("calculateAsync"),\n    FunctionTemplate::New(CalculateAsync)->GetFunction());\n}\n\nNODE_MODULE(addon, InitAll)\n```\n\n```c++\n// sync.h\n#include <node.h>\n#include "nan.h"\n\nNAN_METHOD(CalculateSync);\n```\n\n```c++\n// sync.cc\n#include <node.h>\n#include "nan.h"\n#include "sync.h"\n// ...\n\nusing namespace v8;\n\n// Simple synchronous access to the `Estimate()` function\nNAN_METHOD(CalculateSync) {\n  NanScope();\n\n  // expect a number as the first argument\n  int points = args[0]->Uint32Value();\n  double est = Estimate(points);\n\n  NanReturnValue(Number::New(est));\n}\n```\n\n```c++\n// async.cc\n#include <node.h>\n#include "nan.h"\n#include "async.h"\n\n// ...\n\nusing namespace v8;\n\nclass PiWorker : public NanAsyncWorker {\n public:\n  PiWorker(NanCallback *callback, int points)\n    : NanAsyncWorker(callback), points(points) {}\n  ~PiWorker() {}\n\n  // Executed inside the worker-thread.\n  // It is not safe to access V8, or V8 data structures\n  // here, so everything we need for input and output\n  // should go on `this`.\n  void Execute () {\n    estimate = Estimate(points);\n  }\n\n  // Executed when the async work is complete\n  // this function will be run inside the main event loop\n  // so it is safe to use V8 again\n  void HandleOKCallback () {\n    NanScope();\n\n    Local<Value> argv[] = {\n        Local<Value>::New(Null())\n      , Number::New(estimate)\n    };\n\n    callback->Call(2, argv);\n  };\n\n private:\n  int points;\n  double estimate;\n};\n\n// Asynchronous access to the `Estimate()` function\nNAN_METHOD(CalculateAsync) {\n  NanScope();\n\n  int points = args[0]->Uint32Value();\n  NanCallback *callback = new NanCallback(args[1].As<Function>());\n\n  NanAsyncQueueWorker(new PiWorker(callback, points));\n  NanReturnUndefined();\n}\n```\n\n<a name="api"></a>\n## API\n\n * <a href="#api_nan_method"><b><code>NAN_METHOD</code></b></a>\n * <a href="#api_nan_getter"><b><code>NAN_GETTER</code></b></a>\n * <a href="#api_nan_setter"><b><code>NAN_SETTER</code></b></a>\n * <a href="#api_nan_property_getter"><b><code>NAN_PROPERTY_GETTER</code></b></a>\n * <a href="#api_nan_property_setter"><b><code>NAN_PROPERTY_SETTER</code></b></a>\n * <a href="#api_nan_property_enumerator"><b><code>NAN_PROPERTY_ENUMERATOR</code></b></a>\n * <a href="#api_nan_property_deleter"><b><code>NAN_PROPERTY_DELETER</code></b></a>\n * <a href="#api_nan_property_query"><b><code>NAN_PROPERTY_QUERY</code></b></a>\n * <a href="#api_nan_index_getter"><b><code>NAN_INDEX_GETTER</code></b></a>\n * <a href="#api_nan_index_setter"><b><code>NAN_INDEX_SETTER</code></b></a>\n * <a href="#api_nan_index_enumerator"><b><code>NAN_INDEX_ENUMERATOR</code></b></a>\n * <a href="#api_nan_index_deleter"><b><code>NAN_INDEX_DELETER</code></b></a>\n * <a href="#api_nan_index_query"><b><code>NAN_INDEX_QUERY</code></b></a>\n * <a href="#api_nan_weak_callback"><b><code>NAN_WEAK_CALLBACK</code></b></a>\n * <a href="#api_nan_deprecated"><b><code>NAN_DEPRECATED</code></b></a>\n * <a href="#api_nan_inline"><b><code>NAN_INLINE</code></b></a> \n * <a href="#api_nan_new_local"><b><code>NanNewLocal</code></b></a>\n * <a href="#api_nan_return_value"><b><code>NanReturnValue</code></b></a>\n * <a href="#api_nan_return_undefined"><b><code>NanReturnUndefined</code></b></a>\n * <a href="#api_nan_return_null"><b><code>NanReturnNull</code></b></a>\n * <a href="#api_nan_return_empty_string"><b><code>NanReturnEmptyString</code></b></a>\n * <a href="#api_nan_scope"><b><code>NanScope</code></b></a>\n * <a href="#api_nan_locker"><b><code>NanLocker</code></b></a>\n * <a href="#api_nan_unlocker"><b><code>NanUnlocker</code></b></a>\n * <a href="#api_nan_get_internal_field_pointer"><b><code>NanGetInternalFieldPointer</code></b></a>\n * <a href="#api_nan_set_internal_field_pointer"><b><code>NanSetInternalFieldPointer</code></b></a>\n * <a href="#api_nan_object_wrap_handle"><b><code>NanObjectWrapHandle</code></b></a>\n * <a href="#api_nan_make_weak"><b><code>NanMakeWeak</code></b></a>\n * <a href="#api_nan_symbol"><b><code>NanSymbol</code></b></a>\n * <a href="#api_nan_get_pointer_safe"><b><code>NanGetPointerSafe</code></b></a>\n * <a href="#api_nan_set_pointer_safe"><b><code>NanSetPointerSafe</code></b></a>\n * <a href="#api_nan_raw_string"><b><code>NanRawString</code></b></a>\n * <a href="#api_nan_c_string"><b><code>NanCString</code></b></a>\n * <a href="#api_nan_from_v8_string"><b><code>NanFromV8String</code></b></a>\n * <a href="#api_nan_boolean_option_value"><b><code>NanBooleanOptionValue</code></b></a>\n * <a href="#api_nan_uint32_option_value"><b><code>NanUInt32OptionValue</code></b></a>\n * <a href="#api_nan_error"><b><code>NanError</code></b>, <b><code>NanTypeError</code></b>, <b><code>NanRangeError</code></b></a>\n * <a href="#api_nan_throw_error"><b><code>NanThrowError</code></b>, <b><code>NanThrowTypeError</code></b>, <b><code>NanThrowRangeError</code></b>, <b><code>NanThrowError(Handle<Value>)</code></b>, <b><code>NanThrowError(Handle<Value>, int)</code></b></a>\n * <a href="#api_nan_new_buffer_handle"><b><code>NanNewBufferHandle(char *, size_t, FreeCallback, void *)</code></b>, <b><code>NanNewBufferHandle(char *, uint32_t)</code></b>, <b><code>NanNewBufferHandle(uint32_t)</code></b></a>\n * <a href="#api_nan_buffer_use"><b><code>NanBufferUse(char *, uint32_t)</code></b></a>\n * <a href="#api_nan_new_context_handle"><b><code>NanNewContextHandle</code></b></a>\n * <a href="#api_nan_has_instance"><b><code>NanHasInstance</code></b></a>\n * <a href="#api_nan_persistent_to_local"><b><code>NanPersistentToLocal</code></b></a>\n * <a href="#api_nan_dispose"><b><code>NanDispose</code></b></a>\n * <a href="#api_nan_assign_persistent"><b><code>NanAssignPersistent</code></b></a>\n * <a href="#api_nan_init_persistent"><b><code>NanInitPersistent</code></b></a>\n * <a href="#api_nan_callback"><b><code>NanCallback</code></b></a>\n * <a href="#api_nan_async_worker"><b><code>NanAsyncWorker</code></b></a>\n * <a href="#api_nan_async_queue_worker"><b><code>NanAsyncQueueWorker</code></b></a>\n\n<a name="api_nan_method"></a>\n### NAN_METHOD(methodname)\n\nUse `NAN_METHOD` to define your V8 accessible methods:\n\n```c++\n// .h:\nclass Foo : public node::ObjectWrap {\n  ...\n\n  static NAN_METHOD(Bar);\n  static NAN_METHOD(Baz);\n}\n\n\n// .cc:\nNAN_METHOD(Foo::Bar) {\n  ...\n}\n\nNAN_METHOD(Foo::Baz) {\n  ...\n}\n```\n\nThe reason for this macro is because of the method signature change in 0.11:\n\n```c++\n// 0.10 and below:\nHandle<Value> name(const Arguments& args)\n\n// 0.11 and above\nvoid name(const FunctionCallbackInfo<Value>& args)\n```\n\nThe introduction of `FunctionCallbackInfo` brings additional complications:\n\n<a name="api_nan_getter"></a>\n### NAN_GETTER(methodname)\n\nUse `NAN_GETTER` to declare your V8 accessible getters. You get a `Local<String>` `property` and an appropriately typed `args` object that can act like the `args` argument to a `NAN_METHOD` call.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_GETTER`.\n\n<a name="api_nan_setter"></a>\n### NAN_SETTER(methodname)\n\nUse `NAN_SETTER` to declare your V8 accessible setters. Same as `NAN_GETTER` but you also get a `Local<Value>` `value` object to work with.\n\n<a name="api_nan_property_getter"></a>\n### NAN_PROPERTY_GETTER(cbname)\nUse `NAN_PROPERTY_GETTER` to declare your V8 accessible property getters. You get a `Local<String>` `property` and an appropriately typed `args` object that can act similar to the `args` argument to a `NAN_METHOD` call.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_GETTER`.\n\n<a name="api_nan_property_setter"></a>\n### NAN_PROPERTY_SETTER(cbname)\nUse `NAN_PROPERTY_SETTER` to declare your V8 accessible property setters. Same as `NAN_PROPERTY_GETTER` but you also get a `Local<Value>` `value` object to work with.\n\n<a name="api_nan_property_enumerator"></a>\n### NAN_PROPERTY_ENUMERATOR(cbname)\nUse `NAN_PROPERTY_ENUMERATOR` to declare your V8 accessible property enumerators. You get an appropriately typed `args` object like the `args` argument to a `NAN_PROPERTY_GETTER` call.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_ENUMERATOR`.\n\n<a name="api_nan_property_deleter"></a>\n### NAN_PROPERTY_DELETER(cbname)\nUse `NAN_PROPERTY_DELETER` to declare your V8 accessible property deleters. Same as `NAN_PROPERTY_GETTER`.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_DELETER`.\n\n<a name="api_nan_property_query"></a>\n### NAN_PROPERTY_QUERY(cbname)\nUse `NAN_PROPERTY_QUERY` to declare your V8 accessible property queries. Same as `NAN_PROPERTY_GETTER`.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_PROPERTY_QUERY`.\n\n<a name="api_nan_index_getter"></a>\n### NAN_INDEX_GETTER(cbname)\nUse `NAN_INDEX_GETTER` to declare your V8 accessible index getters. You get a `uint32_t` `index` and an appropriately typed `args` object that can act similar to the `args` argument to a `NAN_METHOD` call.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_INDEX_GETTER`.\n\n<a name="api_nan_index_setter"></a>\n### NAN_INDEX_SETTER(cbname)\nUse `NAN_INDEX_SETTER` to declare your V8 accessible index setters. Same as `NAN_INDEX_GETTER` but you also get a `Local<Value>` `value` object to work with.\n\n<a name="api_nan_index_enumerator"></a>\n### NAN_INDEX_ENUMERATOR(cbname)\nUse `NAN_INDEX_ENUMERATOR` to declare your V8 accessible index enumerators. You get an appropriately typed `args` object like the `args` argument to a `NAN_INDEX_GETTER` call.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_INDEX_ENUMERATOR`.\n\n<a name="api_nan_index_deleter"></a>\n### NAN_INDEX_DELETER(cbname)\nUse `NAN_INDEX_DELETER` to declare your V8 accessible index deleters. Same as `NAN_INDEX_GETTER`.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_INDEX_DELETER`.\n\n<a name="api_nan_index_query"></a>\n### NAN_INDEX_QUERY(cbname)\nUse `NAN_INDEX_QUERY` to declare your V8 accessible index queries. Same as `NAN_INDEX_GETTER`.\n\nYou can use `NanReturnNull()`, `NanReturnEmptyString()`, `NanReturnUndefined()` and `NanReturnValue()` in a `NAN_INDEX_QUERY`.\n\n<a name="api_nan_weak_callback"></a>\n### NAN_WEAK_CALLBACK(type, cbname)\n\nUse `NAN_WEAK_CALLBACK` to declare your V8 WeakReference callbacks. There is an object argument accessible through `NAN_WEAK_CALLBACK_OBJECT`. The `type` argument gives the type of the `data` argument, accessible through `NAN_WEAK_CALLBACK_DATA(type)`.\n\n```c++\nstatic NAN_WEAK_CALLBACK(BufferReference*, WeakCheck) {\n  if (NAN_WEAK_CALLBACK_DATA(BufferReference*)->noLongerNeeded_) {\n    delete NAN_WEAK_CALLBACK_DATA(BufferReference*);\n  } else {\n    // Still in use, revive, prevent GC\n    NanMakeWeak(NAN_WEAK_CALLBACK_OBJECT, NAN_WEAK_CALLBACK_DATA(BufferReference*), &WeakCheck);\n  }\n}\n```\n\n<a name="api_nan_deprecated"></a>\n### NAN_DEPRECATED(declarator)\nDeclares a function as deprecated. Identical to `V8_DEPRECATED`.\n\n```c++\nstatic NAN_DEPRECATED(NAN_METHOD(foo)) {\n  ...\n}\n```\n\n<a name="api_nan_inline"></a>\n### NAN_INLINE(declarator)\nInlines a function. Identical to `V8_INLINE`.\n\n```c++\nstatic NAN_INLINE(int foo(int bar)) {\n  ...\n}\n```\n\n<a name="api_nan_new_local"></a>\n### NanNewLocal&lt;T&gt;(Handle&lt;Value&gt;)\n\nUse `NanNewLocal` in place of `v8::Local<T>::New(...)` as this function\nrequires an `isolate` argument in recent versions of V8 but not in older versions.\n\n```c++\nNanNewLocal<v8::Value>(v8::Null())\n```\n\n<a name="api_nan_return_value"></a>\n### NanReturnValue(Handle&lt;Value&gt;)\n\nUse `NanReturnValue` when you want to return a value from your V8 accessible method:\n\n```c++\nNAN_METHOD(Foo::Bar) {\n  ...\n\n  NanReturnValue(String::New("FooBar!"));\n}\n```\n\nNo `return` statement required.\n\n<a name="api_nan_return_undefined"></a>\n### NanReturnUndefined()\n\nUse `NanReturnUndefined` when you don\'t want to return anything from your V8 accessible method:\n\n```c++\nNAN_METHOD(Foo::Baz) {\n  ...\n\n  NanReturnUndefined();\n}\n```\n\n<a name="api_nan_return_null"></a>\n### NanReturnNull()\n\nUse `NanReturnNull` when you want to return `Null` from your V8 accessible method:\n\n```c++\nNAN_METHOD(Foo::Baz) {\n  ...\n\n  NanReturnNull();\n}\n```\n\n<a name="api_nan_return_empty_string"></a>\n### NanReturnEmptyString()\n\nUse `NanReturnEmptyString` when you want to return an empty `String` from your V8 accessible method:\n\n```c++\nNAN_METHOD(Foo::Baz) {\n  ...\n\n  NanReturnEmptyString();\n}\n```\n\n<a name="api_nan_scope"></a>\n### NanScope()\n\nThe introduction of `isolate` references for many V8 calls in Node 0.11 makes `NanScope()` necessary, use it in place of `HandleScope scope`:\n\n```c++\nNAN_METHOD(Foo::Bar) {\n  NanScope();\n\n  NanReturnValue(String::New("FooBar!"));\n}\n```\n\n<a name="api_nan_locker"></a>\n### NanLocker()\n\nThe introduction of `isolate` references for many V8 calls in Node 0.11 makes `NanLocker()` necessary, use it in place of `Locker locker`:\n\n```c++\nNAN_METHOD(Foo::Bar) {\n  NanLocker();\n  ...\n  NanUnlocker();\n}\n```\n\n<a name="api_nan_unlocker"></a>\n### NanUnlocker()\n\nThe introduction of `isolate` references for many V8 calls in Node 0.11 makes `NanUnlocker()` necessary, use it in place of `Unlocker unlocker`:\n\n```c++\nNAN_METHOD(Foo::Bar) {\n  NanLocker();\n  ...\n  NanUnlocker();\n}\n```\n\n<a name="api_nan_get_internal_field_pointer"></a>\n### void * NanGetInternalFieldPointer(Handle&lt;Object&gt;, int)\n\nGets a pointer to the internal field with at `index` from a V8 `Object` handle.\n\n```c++\nLocal<Object> obj;\n...\nNanGetInternalFieldPointer(obj, 0);\n```\n<a name="api_nan_set_internal_field_pointer"></a>\n### void NanSetInternalFieldPointer(Handle&lt;Object&gt;, int, void *)\n\nSets the value of the internal field at `index` on a V8 `Object` handle.\n\n```c++\nstatic Persistent<Function> dataWrapperCtor;\n...\nLocal<Object> wrapper = NanPersistentToLocal(dataWrapperCtor)->NewInstance();\nNanSetInternalFieldPointer(wrapper, 0, this);\n```\n\n<a name="api_nan_object_wrap_handle"></a>\n### Local&lt;Object&gt; NanObjectWrapHandle(Object)\n\nWhen you want to fetch the V8 object handle from a native object you\'ve wrapped with Node\'s `ObjectWrap`, you should use `NanObjectWrapHandle`:\n\n```c++\nNanObjectWrapHandle(iterator)->Get(String::NewSymbol("end"))\n```\n\n<a name="api_nan_make_weak"></a>\n### NanMakeWeak(Persistent&lt;T&gt;, parameter, callback)\n\nMake a persistent reference weak.\n\n<a name="api_nan_symbol"></a>\n### String NanSymbol(char *)\n\nThis isn\'t strictly about compatibility, it\'s just an easier way to create string symbol objects (i.e. `String::NewSymbol(x)`), for getting and setting object properties, or names of objects.\n\n```c++\nbool foo = false;\nif (obj->Has(NanSymbol("foo")))\n  foo = optionsObj->Get(NanSymbol("foo"))->BooleanValue()\n```\n\n<a name="api_nan_get_pointer_safe"></a>\n### Type NanGetPointerSafe(Type *[, Type])\n\nA helper for getting values from optional pointers. If the pointer is `NULL`, the function returns the optional default value, which defaults to `0`.  Otherwise, the function returns the value the pointer points to.\n\n```c++\nchar *plugh(uint32_t *optional) {\n  char res[] = "xyzzy";\n  uint32_t param = NanGetPointerSafe<uint32_t>(optional, 0x1337);\n  switch (param) {\n    ...\n  }\n  NanSetPointerSafe<uint32_t>(optional, 0xDEADBEEF);\n}  \n```\n\n<a name="api_nan_set_pointer_safe"></a>\n### bool NanSetPointerSafe(Type *, Type)\n\nA helper for setting optional argument pointers. If the pointer is `NULL`, the function simply return `false`.  Otherwise, the value is assigned to the variable the pointer points to.\n\n```c++\nconst char *plugh(size_t *outputsize) {\n  char res[] = "xyzzy";\n  if !(NanSetPointerSafe<size_t>(outputsize, strlen(res) + 1)) {\n    ...\n  }\n\n  ...\n}\n```\n\n<a name="api_nan_raw_string"></a>\n### void* NanRawString(Handle&lt;Value&gt;, enum Nan::Encoding, size_t *, void *, size_t, int)\n\nWhen you want to convert a V8 `String` to a `char*` buffer, use `NanRawString`. You have to supply an encoding as well as a pointer to a variable that will be assigned the number of bytes in the returned string. It is also possible to supply a buffer and its length to the function in order not to have a new buffer allocated. The final argument allows setting `String::WriteOptions`.\nJust remember that you\'ll end up with an object that you\'ll need to `delete[]` at some point unless you supply your own buffer:\n\n```c++\nsize_t count;\nvoid* decoded = NanRawString(args[1], Nan::BASE64, &count, NULL, 0, String::HINT_MANY_WRITES_EXPECTED);\nchar param_copy[count];\nmemcpy(param_copy, decoded, count);\ndelete[] decoded;\n```\n\n<a name="api_nan_c_string"></a>\n### char* NanCString(Handle&lt;Value&gt;, size_t *[, char *, size_t, int])\n\nWhen you want to convert a V8 `String` to a null-terminated C `char*` use `NanCString`. The resulting `char*` will be UTF-8-encoded, and you need to supply a pointer to a variable that will be assigned the number of bytes in the returned string. It is also possible to supply a buffer and its length to the function in order not to have a new buffer allocated. The final argument allows optionally setting `String::WriteOptions`, which default to `v8::String::NO_OPTIONS`.\nJust remember that you\'ll end up with an object that you\'ll need to `delete[]` at some point unless you supply your own buffer:\n\n```c++\nsize_t count;\nchar* name = NanCString(args[0], &count);\n```\n\n<a name="api_nan_from_v8_string"></a>\n### char* NanFromV8String(Handle&lt;Value&gt;[, enum Nan::Encoding, size_t *, char *, size_t, int])\n\nA convenience function that uses `NanRawString()` to convert a V8 `String` to a `char*`. Defaults to UTF8 encoding and no null-termination.\n\n```c++\nsize_t count;\nchar* name = NanFromV8String(args[0]);\n```\n\n<a name="api_nan_boolean_option_value"></a>\n### bool NanBooleanOptionValue(Handle&lt;Value&gt;, Handle&lt;String&gt;[, bool])\n\nWhen you have an "options" object that you need to fetch properties from, boolean options can be fetched with this pair. They check first if the object exists (`IsEmpty`), then if the object has the given property (`Has`) then they get and convert/coerce the property to a `bool`.\n\nThe optional last parameter is the *default* value, which is `false` if left off:\n\n```c++\n// `foo` is false unless the user supplies a truthy value for it\nbool foo = NanBooleanOptionValue(optionsObj, NanSymbol("foo"));\n// `bar` is true unless the user supplies a falsy value for it\nbool bar = NanBooleanOptionValueDefTrue(optionsObj, NanSymbol("bar"), true);\n```\n\n<a name="api_nan_uint32_option_value"></a>\n### uint32_t NanUInt32OptionValue(Handle&lt;Value&gt;, Handle&lt;String&gt;, uint32_t)\n\nSimilar to `NanBooleanOptionValue`, use `NanUInt32OptionValue` to fetch an integer option from your options object. Can be any kind of JavaScript `Number` and it will be coerced to an unsigned 32-bit integer.\n\nRequires all 3 arguments as a default is not optional:\n\n```c++\nuint32_t count = NanUInt32OptionValue(optionsObj, NanSymbol("count"), 1024);\n```\n\n<a name="api_nan_error"></a>\n### NanError(message), NanTypeError(message), NanRangeError(message)\n\nFor making `Error`, `TypeError` and `RangeError` objects.\n\n```c++\nLocal<Value> res = NanError("you must supply a callback argument");\n```\n\n<a name="api_nan_throw_error"></a>\n### NanThrowError(message), NanThrowTypeError(message), NanThrowRangeError(message), NanThrowError(Local&lt;Value&gt;), NanThrowError(Local&lt;Value&gt;, int)\n\nFor throwing `Error`, `TypeError` and `RangeError` objects. You should `return` this call:\n\n```c++\nreturn NanThrowError("you must supply a callback argument");\n```\n\nCan also handle any custom object you may want to throw. If used with the error code argument, it will add the supplied error code to the error object as a property called `code`.\n\n<a name="api_nan_new_buffer_handle"></a>\n### Local&lt;Object&gt; NanNewBufferHandle(char *, uint32_t), Local&lt;Object&gt; NanNewBufferHandle(uint32_t)\n\nThe `Buffer` API has changed a little in Node 0.11, this helper provides consistent access to `Buffer` creation:\n\n```c++\nNanNewBufferHandle((char*)value.data(), value.size());\n```\n\nCan also be used to initialize a `Buffer` with just a `size` argument.\n\nCan also be supplied with a `NAN_WEAK_CALLBACK` and a hint for the garbage collector, when dealing with weak references.\n\n<a name="api_nan_buffer_use"></a>\n### Local&lt;Object&gt; NanBufferUse(char*, uint32_t)\n\n`Buffer::New(char*, uint32_t)` prior to 0.11 would make a copy of the data.\nWhile it was possible to get around this, it required a shim by passing a\ncallback. So the new API `Buffer::Use(char*, uint32_t)` was introduced to remove\nneeding to use this shim.\n\n`NanBufferUse` uses the `char*` passed as the backing data, and will free the\nmemory automatically when the weak callback is called. Keep this in mind, as\ncareless use can lead to "double free or corruption" and other cryptic failures.\n\n<a name="api_nan_has_instance"></a>\n### bool NanHasInstance(Persistent&lt;FunctionTemplate&gt;&, Handle&lt;Value&gt;)\n\nCan be used to check the type of an object to determine it is of a particular class you have already defined and have a `Persistent<FunctionTemplate>` handle for.\n\n<a name="api_nan_persistent_to_local"></a>\n### Local&lt;Type&gt; NanPersistentToLocal(Persistent&lt;Type&gt;&)\n\nAside from `FunctionCallbackInfo`, the biggest and most painful change to V8 in Node 0.11 is the many restrictions now placed on `Persistent` handles. They are difficult to assign and difficult to fetch the original value out of.\n\nUse `NanPersistentToLocal` to convert a `Persistent` handle back to a `Local` handle.\n\n```c++\nLocal<Object> handle = NanPersistentToLocal(persistentHandle);\n```\n\n<a href="#api_nan_new_context_handle">\n### Local&lt;Context&gt; NanNewContextHandle([ExtensionConfiguration*, Handle&lt;ObjectTemplate&gt;, Handle&lt;Value&gt;])\nCreates a new `Local<Context>` handle.\n\n```c++\nLocal<FunctionTemplate> ftmpl = FunctionTemplate::New();\nLocal<ObjectTemplate> otmpl = ftmpl->InstanceTemplate();\nLocal<Context> ctx =  NanNewContextHandle(NULL, otmpl);\n```\n\n<a name="api_nan_dispose"></a>\n### void NanDispose(Persistent&lt;T&gt; &)\n\nUse `NanDispose` to dispose a `Persistent` handle.\n\n```c++\nNanDispose(persistentHandle);\n```\n\n<a name="api_nan_assign_persistent"></a>\n### NanAssignPersistent(type, handle, object)\n\nUse `NanAssignPersistent` to assign a non-`Persistent` handle to a `Persistent` one. You can no longer just declare a `Persistent` handle and assign directly to it later, you have to `Reset` it in Node 0.11, so this makes it easier.\n\nIn general it is now better to place anything you want to protect from V8\'s garbage collector as properties of a generic `Object` and then assign that to a `Persistent`. This works in older versions of Node also if you use `NanAssignPersistent`:\n\n```c++\nPersistent<Object> persistentHandle;\n\n...\n\nLocal<Object> obj = Object::New();\nobj->Set(NanSymbol("key"), keyHandle); // where keyHandle might be a Local<String>\nNanAssignPersistent(Object, persistentHandle, obj)\n```\n\n<a name="api_nan_init_persistent"></a>\n### NanInitPersistent(type, name, object)\n\nUser `NanInitPersistent` to declare and initialize a new `Persistent` with the supplied object. The assignment operator for `Persistent` is no longer public in Node 0.11, so this macro makes it easier to declare and initializing a new `Persistent`. See <a href="#api_nan_assign_persistent"><b><code>NanAssignPersistent</code></b></a> for more information.\n\n```c++\nLocal<Object> obj = Object::New();\nobj->Set(NanSymbol("key"), keyHandle); // where keyHandle might be a Local<String>\nNanInitPersistent(Object, persistentHandle, obj);\n```\n\n<a name="api_nan_callback"></a>\n### NanCallback\n\nBecause of the difficulties imposed by the changes to `Persistent` handles in V8 in Node 0.11, creating `Persistent` versions of your `Handle<Function>` is annoyingly tricky. `NanCallback` makes it easier by taking your handle, making it persistent until the `NanCallback` is deleted and even providing a handy `Call()` method to fetch and execute the callback `Function`.\n\n```c++\nLocal<Function> callbackHandle = args[0].As<Function>();\nNanCallback *callback = new NanCallback(callbackHandle);\n// pass `callback` around and it\'s safe from GC until you:\ndelete callback;\n```\n\nYou can execute the callback like so:\n\n```c++\n// no arguments:\ncallback->Call(0, NULL);\n\n// an error argument:\nHandle<Value> argv[] = {\n  Exception::Error(String::New("fail!"))\n};\ncallback->Call(1, argv);\n\n// a success argument:\nHandle<Value> argv[] = {\n  Null(),\n  String::New("w00t!")\n};\ncallback->Call(2, argv);\n```\n\n`NanCallback` also has a `Local<Function> GetCallback()` method that you can use\nto fetch a local handle to the underlying callback function, as well  as a\n`void SetFunction(Handle<Function>)` for setting the callback on the\n`NanCallback`.  Additionally a generic constructor is available for using\n`NanCallback` without performing heap allocations.\n\n<a name="api_nan_async_worker"></a>\n### NanAsyncWorker\n\n`NanAsyncWorker` is an abstract class that you can subclass to have much of the annoying async queuing and handling taken care of for you. It can even store arbitrary V8 objects for you and have them persist while the async work is in progress.\n\nSee a rough outline of the implementation:\n\n```c++\nclass NanAsyncWorker {\npublic:\n  NanAsyncWorker (NanCallback *callback);\n\n  // Clean up persistent handles and delete the *callback\n  virtual ~NanAsyncWorker ();\n\n  // Check the `char *errmsg` property and call HandleOKCallback()\n  // or HandleErrorCallback depending on whether it has been set or not\n  virtual void WorkComplete ();\n\n  // You must implement this to do some async work. If there is an\n  // error then allocate `errmsg` to to a message and the callback will\n  // be passed that string in an Error object\n  virtual void Execute ();\n\n  // Save a V8 object in a Persistent handle to protect it from GC\n  void SavePersistent(const char *key, Local<Object> &obj);\n\n  // Fetch a stored V8 object (don\'t call from within `Execute()`)\n  Local<Object> GetFromPersistent(const char *key);\n\nprotected:\n  // Set this if there is an error, otherwise it\'s NULL\n  const char *errmsg;\n\n  // Default implementation calls the callback function with no arguments.\n  // Override this to return meaningful data\n  virtual void HandleOKCallback ();\n\n  // Default implementation calls the callback function with an Error object\n  // wrapping the `errmsg` string\n  virtual void HandleErrorCallback ();\n};\n```\n\n<a name="api_nan_async_queue_worker"></a>\n### NanAsyncQueueWorker(NanAsyncWorker *)\n\n`NanAsyncQueueWorker` will run a `NanAsyncWorker` asynchronously via libuv. Both the *execute* and *after_work* steps are taken care of for you&mdash;most of the logic for this is embedded in `NanAsyncWorker`.\n\n### Contributors\n\nNAN is only possible due to the excellent work of the following contributors:\n\n<table><tbody>\n<tr><th align="left">Rod Vagg</th><td><a href="https://github.com/rvagg">GitHub/rvagg</a></td><td><a href="http://twitter.com/rvagg">Twitter/@rvagg</a></td></tr>\n<tr><th align="left">Benjamin Byholm</th><td><a href="https://github.com/kkoopa/">GitHub/kkoopa</a></td></tr>\n<tr><th align="left">Trevor Norris</th><td><a href="https://github.com/trevnorris">GitHub/trevnorris</a></td><td><a href="http://twitter.com/trevnorris">Twitter/@trevnorris</a></td></tr>\n<tr><th align="left">Nathan Rajlich</th><td><a href="https://github.com/TooTallNate">GitHub/TooTallNate</a></td><td><a href="http://twitter.com/TooTallNate">Twitter/@TooTallNate</a></td></tr>\n<tr><th align="left">Brett Lawson</th><td><a href="https://github.com/brett19">GitHub/brett19</a></td><td><a href="http://twitter.com/brett19x">Twitter/@brett19x</a></td></tr>\n<tr><th align="left">Ben Noordhuis</th><td><a href="https://github.com/bnoordhuis">GitHub/bnoordhuis</a></td><td><a href="http://twitter.com/bnoordhuis">Twitter/@bnoordhuis</a></td></tr>\n</tbody></table>\n\nLicence &amp; copyright\n-----------------------\n\nCopyright (c) 2013 NAN contributors (listed above).\n\nNative Abstractions for Node.js is licensed under an MIT +no-false-attribs license. All rights not explicitly granted in the MIT license are reserved. See the included LICENSE file for more details.\n',
+127 silly resolved     readmeFilename: 'README.md',
+127 silly resolved     bugs: { url: 'https://github.com/rvagg/nan/issues' },
+127 silly resolved     homepage: 'https://github.com/rvagg/nan',
+127 silly resolved     _id: 'nan@0.7.1',
+127 silly resolved     _from: 'nan@~0.7.0' },
+127 silly resolved   { name: 'async',
+127 silly resolved     description: 'Higher-order functions and common patterns for asynchronous code',
+127 silly resolved     main: './index',
+127 silly resolved     author: { name: 'Caolan McMahon' },
+127 silly resolved     version: '0.1.18',
+127 silly resolved     repository: { type: 'git', url: 'http://github.com/caolan/async.git' },
+127 silly resolved     bugs: { url: 'http://github.com/caolan/async/issues' },
+127 silly resolved     licenses: [ [Object] ],
+127 silly resolved     devDependencies: { nodeunit: '>0.0.0', 'uglify-js': '1.2.x', nodelint: '>0.0.0' },
+127 silly resolved     readme: '# Async.js\n\nAsync is a utility module which provides straight-forward, powerful functions\nfor working with asynchronous JavaScript. Although originally designed for\nuse with [node.js](http://nodejs.org), it can also be used directly in the\nbrowser.\n\nAsync provides around 20 functions that include the usual \'functional\'\nsuspects (map, reduce, filter, forEach…) as well as some common patterns\nfor asynchronous control flow (parallel, series, waterfall…). All these\nfunctions assume you follow the node.js convention of providing a single\ncallback as the last argument of your async function.\n\n\n## Quick Examples\n\n    async.map([\'file1\',\'file2\',\'file3\'], fs.stat, function(err, results){\n        // results is now an array of stats for each file\n    });\n\n    async.filter([\'file1\',\'file2\',\'file3\'], path.exists, function(results){\n        // results now equals an array of the existing files\n    });\n\n    async.parallel([\n        function(){ ... },\n        function(){ ... }\n    ], callback);\n\n    async.series([\n        function(){ ... },\n        function(){ ... }\n    ]);\n\nThere are many more functions available so take a look at the docs below for a\nfull list. This module aims to be comprehensive, so if you feel anything is\nmissing please create a GitHub issue for it.\n\n\n## Download\n\nReleases are available for download from\n[GitHub](http://github.com/caolan/async/downloads).\nAlternatively, you can install using Node Package Manager (npm):\n\n    npm install async\n\n\n__Development:__ [async.js](https://github.com/caolan/async/raw/master/lib/async.js) - 17.5kb Uncompressed\n\n__Production:__ [async.min.js](https://github.com/caolan/async/raw/master/dist/async.min.js) - 1.7kb Packed and Gzipped\n\n\n## In the Browser\n\nSo far its been tested in IE6, IE7, IE8, FF3.6 and Chrome 5. Usage:\n\n    <script type="text/javascript" src="async.js"></script>\n    <script type="text/javascript">\n\n        async.map(data, asyncProcess, function(err, results){\n            alert(results);\n        });\n\n    </script>\n\n\n## Documentation\n\n### Collections\n\n* [forEach](#forEach)\n* [map](#map)\n* [filter](#filter)\n* [reject](#reject)\n* [reduce](#reduce)\n* [detect](#detect)\n* [sortBy](#sortBy)\n* [some](#some)\n* [every](#every)\n* [concat](#concat)\n\n### Control Flow\n\n* [series](#series)\n* [parallel](#parallel)\n* [whilst](#whilst)\n* [until](#until)\n* [waterfall](#waterfall)\n* [queue](#queue)\n* [auto](#auto)\n* [iterator](#iterator)\n* [apply](#apply)\n* [nextTick](#nextTick)\n\n### Utils\n\n* [memoize](#memoize)\n* [unmemoize](#unmemoize)\n* [log](#log)\n* [dir](#dir)\n* [noConflict](#noConflict)\n\n\n## Collections\n\n<a name="forEach" />\n### forEach(arr, iterator, callback)\n\nApplies an iterator function to each item in an array, in parallel.\nThe iterator is called with an item from the list and a callback for when it\nhas finished. If the iterator passes an error to this callback, the main\ncallback for the forEach function is immediately called with the error.\n\nNote, that since this function applies the iterator to each item in parallel\nthere is no guarantee that the iterator functions will complete in order.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(err) - A callback which is called after all the iterator functions\n  have finished, or an error has occurred.\n\n__Example__\n\n    // assuming openFiles is an array of file names and saveFile is a function\n    // to save the modified contents of that file:\n\n    async.forEach(openFiles, saveFile, function(err){\n        // if any of the saves produced an error, err would equal that error\n    });\n\n---------------------------------------\n\n<a name="forEachSeries" />\n### forEachSeries(arr, iterator, callback)\n\nThe same as forEach only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. This means the iterator functions will complete in order.\n\n\n---------------------------------------\n\n<a name="forEachLimit" />\n### forEachLimit(arr, limit, iterator, callback)\n\nThe same as forEach only the iterator is applied to batches of items in the\narray, in series. The next batch of iterators is only called once the current\none has completed processing.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* limit - How many items should be in each batch.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(err) - A callback which is called after all the iterator functions\n  have finished, or an error has occurred.\n\n__Example__\n\n    // Assume documents is an array of JSON objects and requestApi is a\n    // function that interacts with a rate-limited REST api.\n\n    async.forEachLimit(documents, 20, requestApi, function(err){\n        // if any of the saves produced an error, err would equal that error\n    });\n---------------------------------------\n\n<a name="map" />\n### map(arr, iterator, callback)\n\nProduces a new array of values by mapping each value in the given array through\nthe iterator function. The iterator is called with an item from the array and a\ncallback for when it has finished processing. The callback takes 2 arguments, \nan error and the transformed item from the array. If the iterator passes an\nerror to this callback, the main callback for the map function is immediately\ncalled with the error.\n\nNote, that since this function applies the iterator to each item in parallel\nthere is no guarantee that the iterator functions will complete in order, however\nthe results array will be in the same order as the original array.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed\n  with an error (which can be null) and a transformed item.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is an array of the\n  transformed items from the original array.\n\n__Example__\n\n    async.map([\'file1\',\'file2\',\'file3\'], fs.stat, function(err, results){\n        // results is now an array of stats for each file\n    });\n\n---------------------------------------\n\n<a name="mapSeries" />\n### mapSeries(arr, iterator, callback)\n\nThe same as map only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. The results array will be in the same order as the original.\n\n\n---------------------------------------\n\n<a name="filter" />\n### filter(arr, iterator, callback)\n\n__Alias:__ select\n\nReturns a new array of all the values which pass an async truth test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like path.exists. This operation is\nperformed in parallel, but the results array will be in the same order as the\noriginal.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(results) - A callback which is called after all the iterator\n  functions have finished.\n\n__Example__\n\n    async.filter([\'file1\',\'file2\',\'file3\'], path.exists, function(results){\n        // results now equals an array of the existing files\n    });\n\n---------------------------------------\n\n<a name="filterSeries" />\n### filterSeries(arr, iterator, callback)\n\n__alias:__ selectSeries\n\nThe same as filter only the iterator is applied to each item in the array in\nseries. The next iterator is only called once the current one has completed\nprocessing. The results array will be in the same order as the original.\n\n---------------------------------------\n\n<a name="reject" />\n### reject(arr, iterator, callback)\n\nThe opposite of filter. Removes values that pass an async truth test.\n\n---------------------------------------\n\n<a name="rejectSeries" />\n### rejectSeries(arr, iterator, callback)\n\nThe same as filter, only the iterator is applied to each item in the array\nin series.\n\n\n---------------------------------------\n\n<a name="reduce" />\n### reduce(arr, memo, iterator, callback)\n\n__aliases:__ inject, foldl\n\nReduces a list of values into a single value using an async iterator to return\neach successive step. Memo is the initial state of the reduction. This\nfunction only operates in series. For performance reasons, it may make sense to\nsplit a call to this function into a parallel map, then use the normal\nArray.prototype.reduce on the results. This function is for situations where\neach step in the reduction needs to be async, if you can get the data before\nreducing it then its probably a good idea to do so.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* memo - The initial state of the reduction.\n* iterator(memo, item, callback) - A function applied to each item in the\n  array to produce the next step in the reduction. The iterator is passed a\n  callback which accepts an optional error as its first argument, and the state\n  of the reduction as the second. If an error is passed to the callback, the\n  reduction is stopped and the main callback is immediately called with the\n  error.\n* callback(err, result) - A callback which is called after all the iterator\n  functions have finished. Result is the reduced value.\n\n__Example__\n\n    async.reduce([1,2,3], 0, function(memo, item, callback){\n        // pointless async:\n        process.nextTick(function(){\n            callback(null, memo + item)\n        });\n    }, function(err, result){\n        // result is now equal to the last value of memo, which is 6\n    });\n\n---------------------------------------\n\n<a name="reduceRight" />\n### reduceRight(arr, memo, iterator, callback)\n\n__Alias:__ foldr\n\nSame as reduce, only operates on the items in the array in reverse order.\n\n\n---------------------------------------\n\n<a name="detect" />\n### detect(arr, iterator, callback)\n\nReturns the first value in a list that passes an async truth test. The\niterator is applied in parallel, meaning the first iterator to return true will\nfire the detect callback with that result. That means the result might not be\nthe first item in the original array (in terms of order) that passes the test.\n\nIf order within the original array is important then look at detectSeries.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(result) - A callback which is called as soon as any iterator returns\n  true, or after all the iterator functions have finished. Result will be\n  the first item in the array that passes the truth test (iterator) or the\n  value undefined if none passed.\n\n__Example__\n\n    async.detect([\'file1\',\'file2\',\'file3\'], path.exists, function(result){\n        // result now equals the first file in the list that exists\n    });\n\n---------------------------------------\n\n<a name="detectSeries" />\n### detectSeries(arr, iterator, callback)\n\nThe same as detect, only the iterator is applied to each item in the array\nin series. This means the result is always the first in the original array (in\nterms of array order) that passes the truth test.\n\n\n---------------------------------------\n\n<a name="sortBy" />\n### sortBy(arr, iterator, callback)\n\nSorts a list by the results of running each value through an async iterator.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed\n  with an error (which can be null) and a value to use as the sort criteria.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is the items from\n  the original array sorted by the values returned by the iterator calls.\n\n__Example__\n\n    async.sortBy([\'file1\',\'file2\',\'file3\'], function(file, callback){\n        fs.stat(file, function(err, stats){\n            callback(err, stats.mtime);\n        });\n    }, function(err, results){\n        // results is now the original array of files sorted by\n        // modified date\n    });\n\n\n---------------------------------------\n\n<a name="some" />\n### some(arr, iterator, callback)\n\n__Alias:__ any\n\nReturns true if at least one element in the array satisfies an async test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like path.exists. Once any iterator\ncall returns true, the main callback is immediately called.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(result) - A callback which is called as soon as any iterator returns\n  true, or after all the iterator functions have finished. Result will be\n  either true or false depending on the values of the async tests.\n\n__Example__\n\n    async.some([\'file1\',\'file2\',\'file3\'], path.exists, function(result){\n        // if result is true then at least one of the files exists\n    });\n\n---------------------------------------\n\n<a name="every" />\n### every(arr, iterator, callback)\n\n__Alias:__ all\n\nReturns true if every element in the array satisfies an async test.\n_The callback for each iterator call only accepts a single argument of true or\nfalse, it does not accept an error argument first!_ This is in-line with the\nway node libraries work with truth tests like path.exists.\n\n__Arguments__\n\n* arr - An array to iterate over.\n* iterator(item, callback) - A truth test to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed.\n* callback(result) - A callback which is called after all the iterator\n  functions have finished. Result will be either true or false depending on\n  the values of the async tests.\n\n__Example__\n\n    async.every([\'file1\',\'file2\',\'file3\'], path.exists, function(result){\n        // if result is true then every file exists\n    });\n\n---------------------------------------\n\n<a name="concat" />\n### concat(arr, iterator, callback)\n\nApplies an iterator to each item in a list, concatenating the results. Returns the\nconcatenated list. The iterators are called in parallel, and the results are\nconcatenated as they return. There is no guarantee that the results array will\nbe returned in the original order of the arguments passed to the iterator function.\n\n__Arguments__\n\n* arr - An array to iterate over\n* iterator(item, callback) - A function to apply to each item in the array.\n  The iterator is passed a callback which must be called once it has completed\n  with an error (which can be null) and an array of results.\n* callback(err, results) - A callback which is called after all the iterator\n  functions have finished, or an error has occurred. Results is an array containing\n  the concatenated results of the iterator function.\n\n__Example__\n\n    async.concat([\'dir1\',\'dir2\',\'dir3\'], fs.readdir, function(err, files){\n        // files is now a list of filenames that exist in the 3 directories\n    });\n\n---------------------------------------\n\n<a name="concatSeries" />\n### concatSeries(arr, iterator, callback)\n\nSame as async.concat, but executes in series instead of parallel.\n\n\n## Control Flow\n\n<a name="series" />\n### series(tasks, [callback])\n\nRun an array of functions in series, each one running once the previous\nfunction has completed. If any functions in the series pass an error to its\ncallback, no more functions are run and the callback for the series is\nimmediately called with the value of the error. Once the tasks have completed,\nthe results are passed to the final callback as an array.\n\nIt is also possible to use an object instead of an array. Each property will be\nrun as a function and the results will be passed to the final callback as an object\ninstead of an array. This can be a more readable way of handling results from\nasync.series.\n\n\n__Arguments__\n\n* tasks - An array or object containing functions to run, each function is passed\n  a callback it must call on completion.\n* callback(err, results) - An optional callback to run once all the functions\n  have completed. This function gets an array of all the arguments passed to\n  the callbacks used in the array.\n\n__Example__\n\n    async.series([\n        function(callback){\n            // do some stuff ...\n            callback(null, \'one\');\n        },\n        function(callback){\n            // do some more stuff ...\n            callback(null, \'two\');\n        },\n    ],\n    // optional callback\n    function(err, results){\n        // results is now equal to [\'one\', \'two\']\n    });\n\n\n    // an example using an object instead of an array\n    async.series({\n        one: function(callback){\n            setTimeout(function(){\n                callback(null, 1);\n            }, 200);\n        },\n        two: function(callback){\n            setTimeout(function(){\n                callback(null, 2);\n            }, 100);\n        },\n    },\n    function(err, results) {\n        // results is now equal to: {one: 1, two: 2}\n    });\n\n\n---------------------------------------\n\n<a name="parallel" />\n### parallel(tasks, [callback])\n\nRun an array of functions in parallel, without waiting until the previous\nfunction has completed. If any of the functions pass an error to its\ncallback, the main callback is immediately called with the value of the error.\nOnce the tasks have completed, the results are passed to the final callback as an\narray.\n\nIt is also possible to use an object instead of an array. Each property will be\nrun as a function and the results will be passed to the final callback as an object\ninstead of an array. This can be a more readable way of handling results from\nasync.parallel.\n\n\n__Arguments__\n\n* tasks - An array or object containing functions to run, each function is passed a\n  callback it must call on completion.\n* callback(err, results) - An optional callback to run once all the functions\n  have completed. This function gets an array of all the arguments passed to\n  the callbacks used in the array.\n\n__Example__\n\n    async.parallel([\n        function(callback){\n            setTimeout(function(){\n                callback(null, \'one\');\n            }, 200);\n        },\n        function(callback){\n            setTimeout(function(){\n                callback(null, \'two\');\n            }, 100);\n        },\n    ],\n    // optional callback\n    function(err, results){\n        // in this case, the results array will equal [\'two\',\'one\']\n        // because the functions were run in parallel and the second\n        // function had a shorter timeout before calling the callback.\n    });\n\n\n    // an example using an object instead of an array\n    async.parallel({\n        one: function(callback){\n            setTimeout(function(){\n                callback(null, 1);\n            }, 200);\n        },\n        two: function(callback){\n            setTimeout(function(){\n                callback(null, 2);\n            }, 100);\n        },\n    },\n    function(err, results) {\n        // results is now equals to: {one: 1, two: 2}\n    });\n\n\n---------------------------------------\n\n<a name="whilst" />\n### whilst(test, fn, callback)\n\nRepeatedly call fn, while test returns true. Calls the callback when stopped,\nor an error occurs.\n\n__Arguments__\n\n* test() - synchronous truth test to perform before each execution of fn.\n* fn(callback) - A function to call each time the test passes. The function is\n  passed a callback which must be called once it has completed with an optional\n  error as the first argument.\n* callback(err) - A callback which is called after the test fails and repeated\n  execution of fn has stopped.\n\n__Example__\n\n    var count = 0;\n\n    async.whilst(\n        function () { return count < 5; },\n        function (callback) {\n            count++;\n            setTimeout(callback, 1000);\n        },\n        function (err) {\n            // 5 seconds have passed\n        }\n    );\n\n\n---------------------------------------\n\n<a name="until" />\n### until(test, fn, callback)\n\nRepeatedly call fn, until test returns true. Calls the callback when stopped,\nor an error occurs.\n\nThe inverse of async.whilst.\n\n\n---------------------------------------\n\n<a name="waterfall" />\n### waterfall(tasks, [callback])\n\nRuns an array of functions in series, each passing their results to the next in\nthe array. However, if any of the functions pass an error to the callback, the\nnext function is not executed and the main callback is immediately called with\nthe error.\n\n__Arguments__\n\n* tasks - An array of functions to run, each function is passed a callback it\n  must call on completion.\n* callback(err, [results]) - An optional callback to run once all the functions\n  have completed. This will be passed the results of the last task\'s callback.\n\n\n\n__Example__\n\n    async.waterfall([\n        function(callback){\n            callback(null, \'one\', \'two\');\n        },\n        function(arg1, arg2, callback){\n            callback(null, \'three\');\n        },\n        function(arg1, callback){\n            // arg1 now equals \'three\'\n            callback(null, \'done\');\n        }\n    ], function (err, result) {\n       // result now equals \'done\'    \n    });\n\n\n---------------------------------------\n\n<a name="queue" />\n### queue(worker, concurrency)\n\nCreates a queue object with the specified concurrency. Tasks added to the\nqueue will be processed in parallel (up to the concurrency limit). If all\nworkers are in progress, the task is queued until one is available. Once\na worker has completed a task, the task\'s callback is called.\n\n__Arguments__\n\n* worker(task, callback) - An asynchronous function for processing a queued\n  task.\n* concurrency - An integer for determining how many worker functions should be\n  run in parallel.\n\n__Queue objects__\n\nThe queue object returned by this function has the following properties and\nmethods:\n\n* length() - a function returning the number of items waiting to be processed.\n* concurrency - an integer for determining how many worker functions should be\n  run in parallel. This property can be changed after a queue is created to\n  alter the concurrency on-the-fly.\n* push(task, [callback]) - add a new task to the queue, the callback is called\n  once the worker has finished processing the task.\n  instead of a single task, an array of tasks can be submitted. the respective callback is used for every task in the list.\n* saturated - a callback that is called when the queue length hits the concurrency and further tasks will be queued\n* empty - a callback that is called when the last item from the queue is given to a worker\n* drain - a callback that is called when the last item from the queue has returned from the worker\n\n__Example__\n\n    // create a queue object with concurrency 2\n\n    var q = async.queue(function (task, callback) {\n        console.log(\'hello \' + task.name);\n        callback();\n    }, 2);\n\n\n    // assign a callback\n    q.drain = function() {\n        console.log(\'all items have been processed\');\n    }\n\n    // add some items to the queue\n\n    q.push({name: \'foo\'}, function (err) {\n        console.log(\'finished processing foo\');\n    });\n    q.push({name: \'bar\'}, function (err) {\n        console.log(\'finished processing bar\');\n    });\n\n    // add some items to the queue (batch-wise)\n\n    q.push([{name: \'baz\'},{name: \'bay\'},{name: \'bax\'}], function (err) {\n        console.log(\'finished processing bar\');\n    });\n\n\n---------------------------------------\n\n<a name="auto" />\n### auto(tasks, [callback])\n\nDetermines the best order for running functions based on their requirements.\nEach function can optionally depend on other functions being completed first,\nand each function is run as soon as its requirements are satisfied. If any of\nthe functions pass an error to their callback, that function will not complete\n(so any other functions depending on it will not run) and the main callback\nwill be called immediately with the error. Functions also receive an object\ncontaining the results of functions which have completed so far.\n\n__Arguments__\n\n* tasks - An object literal containing named functions or an array of\n  requirements, with the function itself the last item in the array. The key\n  used for each function or array is used when specifying requirements. The\n  syntax is easier to understand by looking at the example.\n* callback(err, results) - An optional callback which is called when all the\n  tasks have been completed. The callback will receive an error as an argument\n  if any tasks pass an error to their callback. If all tasks complete\n  successfully, it will receive an object containing their results.\n\n__Example__\n\n    async.auto({\n        get_data: function(callback){\n            // async code to get some data\n        },\n        make_folder: function(callback){\n            // async code to create a directory to store a file in\n            // this is run at the same time as getting the data\n        },\n        write_file: [\'get_data\', \'make_folder\', function(callback){\n            // once there is some data and the directory exists,\n            // write the data to a file in the directory\n            callback(null, filename);\n        }],\n        email_link: [\'write_file\', function(callback, results){\n            // once the file is written let\'s email a link to it...\n            // results.write_file contains the filename returned by write_file.\n        }]\n    });\n\nThis is a fairly trivial example, but to do this using the basic parallel and\nseries functions would look like this:\n\n    async.parallel([\n        function(callback){\n            // async code to get some data\n        },\n        function(callback){\n            // async code to create a directory to store a file in\n            // this is run at the same time as getting the data\n        }\n    ],\n    function(results){\n        async.series([\n            function(callback){\n                // once there is some data and the directory exists,\n                // write the data to a file in the directory\n            },\n            email_link: function(callback){\n                // once the file is written let\'s email a link to it...\n            }\n        ]);\n    });\n\nFor a complicated series of async tasks using the auto function makes adding\nnew tasks much easier and makes the code more readable.\n\n\n---------------------------------------\n\n<a name="iterator" />\n### iterator(tasks)\n\nCreates an iterator function which calls the next function in the array,\nreturning a continuation to call the next one after that. Its also possible to\n\'peek\' the next iterator by doing iterator.next().\n\nThis function is used internally by the async module but can be useful when\nyou want to manually control the flow of functions in series.\n\n__Arguments__\n\n* tasks - An array of functions to run, each function is passed a callback it\n  must call on completion.\n\n__Example__\n\n    var iterator = async.iterator([\n        function(){ sys.p(\'one\'); },\n        function(){ sys.p(\'two\'); },\n        function(){ sys.p(\'three\'); }\n    ]);\n\n    node> var iterator2 = iterator();\n    \'one\'\n    node> var iterator3 = iterator2();\n    \'two\'\n    node> iterator3();\n    \'three\'\n    node> var nextfn = iterator2.next();\n    node> nextfn();\n    \'three\'\n\n\n---------------------------------------\n\n<a name="apply" />\n### apply(function, arguments..)\n\nCreates a continuation function with some arguments already applied, a useful\nshorthand when combined with other control flow functions. Any arguments\npassed to the returned function are added to the arguments originally passed\nto apply.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to automatically apply when the\n  continuation is called.\n\n__Example__\n\n    // using apply\n\n    async.parallel([\n        async.apply(fs.writeFile, \'testfile1\', \'test1\'),\n        async.apply(fs.writeFile, \'testfile2\', \'test2\'),\n    ]);\n\n\n    // the same process without using apply\n\n    async.parallel([\n        function(callback){\n            fs.writeFile(\'testfile1\', \'test1\', callback);\n        },\n        function(callback){\n            fs.writeFile(\'testfile2\', \'test2\', callback);\n        },\n    ]);\n\nIt\'s possible to pass any number of additional arguments when calling the\ncontinuation:\n\n    node> var fn = async.apply(sys.puts, \'one\');\n    node> fn(\'two\', \'three\');\n    one\n    two\n    three\n\n---------------------------------------\n\n<a name="nextTick" />\n### nextTick(callback)\n\nCalls the callback on a later loop around the event loop. In node.js this just\ncalls process.nextTick, in the browser it falls back to setTimeout(callback, 0),\nwhich means other higher priority events may precede the execution of the callback.\n\nThis is used internally for browser-compatibility purposes.\n\n__Arguments__\n\n* callback - The function to call on a later loop around the event loop.\n\n__Example__\n\n    var call_order = [];\n    async.nextTick(function(){\n        call_order.push(\'two\');\n        // call_order now equals [\'one\',\'two]\n    });\n    call_order.push(\'one\')\n\n\n## Utils\n\n<a name="memoize" />\n### memoize(fn, [hasher])\n\nCaches the results of an async function. When creating a hash to store function\nresults against, the callback is omitted from the hash and an optional hash\nfunction can be used.\n\n__Arguments__\n\n* fn - the function you to proxy and cache results from.\n* hasher - an optional function for generating a custom hash for storing\n  results, it has all the arguments applied to it apart from the callback, and\n  must be synchronous.\n\n__Example__\n\n    var slow_fn = function (name, callback) {\n        // do something\n        callback(null, result);\n    };\n    var fn = async.memoize(slow_fn);\n\n    // fn can now be used as if it were slow_fn\n    fn(\'some name\', function () {\n        // callback\n    });\n\n<a name="unmemoize" />\n### unmemoize(fn)\n\nUndoes a memoized function, reverting it to the original, unmemoized\nform. Comes handy in tests.\n\n__Arguments__\n\n* fn - the memoized function\n\n<a name="log" />\n### log(function, arguments)\n\nLogs the result of an async function to the console. Only works in node.js or\nin browsers that support console.log and console.error (such as FF and Chrome).\nIf multiple arguments are returned from the async function, console.log is\ncalled on each argument in order.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to apply to the function.\n\n__Example__\n\n    var hello = function(name, callback){\n        setTimeout(function(){\n            callback(null, \'hello \' + name);\n        }, 1000);\n    };\n\n    node> async.log(hello, \'world\');\n    \'hello world\'\n\n\n---------------------------------------\n\n<a name="dir" />\n### dir(function, arguments)\n\nLogs the result of an async function to the console using console.dir to\ndisplay the properties of the resulting object. Only works in node.js or\nin browsers that support console.dir and console.error (such as FF and Chrome).\nIf multiple arguments are returned from the async function, console.dir is\ncalled on each argument in order.\n\n__Arguments__\n\n* function - The function you want to eventually apply all arguments to.\n* arguments... - Any number of arguments to apply to the function.\n\n__Example__\n\n    var hello = function(name, callback){\n        setTimeout(function(){\n            callback(null, {hello: name});\n        }, 1000);\n    };\n\n    node> async.dir(hello, \'world\');\n    {hello: \'world\'}\n\n\n---------------------------------------\n\n<a name="noConflict" />\n### noConflict()\n\nChanges the value of async back to its original value, returning a reference to the\nasync object.\n',
+127 silly resolved     readmeFilename: 'README.md',
+127 silly resolved     homepage: 'https://github.com/caolan/async',
+127 silly resolved     _id: 'async@0.1.18',
+127 silly resolved     _from: 'async@0.1.18' },
+127 silly resolved   { name: 'bindings',
+127 silly resolved     description: 'Helper module for loading your native module\'s .node file',
+127 silly resolved     keywords: [ 'native', 'addon', 'bindings', 'gyp', 'waf', 'c', 'c++' ],
+127 silly resolved     version: '1.1.1',
+127 silly resolved     author:
+127 silly resolved      { name: 'Nathan Rajlich',
+127 silly resolved        email: 'nathan@tootallnate.net',
+127 silly resolved        url: 'http://tootallnate.net' },
+127 silly resolved     repository:
+127 silly resolved      { type: 'git',
+127 silly resolved        url: 'git://github.com/TooTallNate/node-bindings.git' },
+127 silly resolved     main: './bindings.js',
+127 silly resolved     readme: 'node-bindings\n=============\n### Helper module for loading your native module\'s .node file\n\nThis is a helper module for authors of Node.js native addon modules.\nIt is basically the "swiss army knife" of `require()`ing your native module\'s\n`.node` file.\n\nThroughout the course of Node\'s native addon history, addons have ended up being\ncompiled in a variety of different places, depending on which build tool and which\nversion of node was used. To make matters worse, now the _gyp_ build tool can\nproduce either a _Release_ or _Debug_ build, each being built into different\nlocations.\n\nThis module checks _all_ the possible locations that a native addon would be built\nat, and returns the first one that loads successfully.\n\n\nInstallation\n------------\n\nInstall with `npm`:\n\n``` bash\n$ npm install bindings\n```\n\nOr add it to the `"dependencies"` section of your _package.json_ file.\n\n\nExample\n-------\n\n`require()`ing the proper bindings file for the current node version, platform\nand architecture is as simple as:\n\n``` js\nvar bindings = require(\'bindings\')(\'binding.node\')\n\n// Use your bindings defined in your C files\nbindings.your_c_function()\n```\n\n\nNice Error Output\n-----------------\n\nWhen the `.node` file could not be loaded, `node-bindings` throws an Error with\na nice error message telling you exactly what was tried. You can also check the\n`err.tries` Array property.\n\n```\nError: Could not load the bindings file. Tried:\n → /Users/nrajlich/ref/build/binding.node\n → /Users/nrajlich/ref/build/Debug/binding.node\n → /Users/nrajlich/ref/build/Release/binding.node\n → /Users/nrajlich/ref/out/Debug/binding.node\n → /Users/nrajlich/ref/Debug/binding.node\n → /Users/nrajlich/ref/out/Release/binding.node\n → /Users/nrajlich/ref/Release/binding.node\n → /Users/nrajlich/ref/build/default/binding.node\n → /Users/nrajlich/ref/compiled/0.8.2/darwin/x64/binding.node\n    at bindings (/Users/nrajlich/ref/node_modules/bindings/bindings.js:84:13)\n    at Object.<anonymous> (/Users/nrajlich/ref/lib/ref.js:5:47)\n    at Module._compile (module.js:449:26)\n    at Object.Module._extensions..js (module.js:467:10)\n    at Module.load (module.js:356:32)\n    at Function.Module._load (module.js:312:12)\n    ...\n```\n\n\nLicense\n-------\n\n(The MIT License)\n\nCopyright (c) 2012 Nathan Rajlich &lt;nathan@tootallnate.net&gt;\n\nPermission is hereby granted, free of charge, to any person obtaining\na copy of this software and associated documentation files (the\n\'Software\'), to deal in the Software without restriction, including\nwithout limitation the rights to use, copy, modify, merge, publish,\ndistribute, sublicense, and/or sell copies of the Software, and to\npermit persons to whom the Software is furnished to do so, subject to\nthe following conditions:\n\nThe above copyright notice and this permission notice shall be\nincluded in all copies or substantial portions of the Software.\n\nTHE SOFTWARE IS PROVIDED \'AS IS\', WITHOUT WARRANTY OF ANY KIND,\nEXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF\nMERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.\nIN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY\nCLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,\nTORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE\nSOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.\n',
+127 silly resolved     readmeFilename: 'README.md',
+127 silly resolved     bugs: { url: 'https://github.com/TooTallNate/node-bindings/issues' },
+127 silly resolved     homepage: 'https://github.com/TooTallNate/node-bindings',
+127 silly resolved     _id: 'bindings@1.1.1',
+127 silly resolved     _from: 'bindings@1.1.1' },
+127 silly resolved   { name: 'sf',
+127 silly resolved     description: 'String formatting library for node.js',
+127 silly resolved     author: { name: 'Joe Ferner', email: 'joe.ferner@nearinfinity.com' },
+127 silly resolved     keywords: [ 'string', 'format', 'template' ],
+127 silly resolved     version: '0.1.6',
+127 silly resolved     engines: { node: '>=0.6.0' },
+127 silly resolved     maintainers: [ [Object] ],
+127 silly resolved     bugs: { url: 'https://github.com/nearinfinity/node-sf/issues' },
+127 silly resolved     license: 'MIT',
+127 silly resolved     repository:
+127 silly resolved      { type: 'git',
+127 silly resolved        url: 'https://github.com/nearinfinity/node-sf.git' },
+127 silly resolved     devDependencies: { nodeunit: '~0.7.3', 'timezone-js': '~0.4.3' },
+127 silly resolved     scripts: { test: 'nodeunit test' },
+127 silly resolved     main: './index.js',
+127 silly resolved     readme: '# sf\n\n[![Build Status](https://secure.travis-ci.org/nearinfinity/node-sf.png)](http://travis-ci.org/nearinfinity/node-sf)\n\nString formatting library for node.js.\n\n## Installation\n\n```bash\n$ npm install sf\n```\n\n## Quick Examples\n\n```javascript\nvar sf = require("sf");\n\nsf("{who} has a {what}", { who: \'dog\', what: \'tail\' });\n// returns: dog has a tail\n\nsf("{0} has a {1}", \'dog\', \'tail\');\n// returns: dog has a tail\n\nsf("{0:#,##0.00}", 2123.1);\n// returns: 2,123.10\n\nsf("{0,15:#,##0.00}", 2123.1);\n// returns:        2,123.10\n\nsf("{a.b}", { a: { b: \'test\' }});\n// returns: test\n\nsf("{a.z.c}", { a: { b: \'test\' }});\n// throws an error\n\nsf("{a.?z.?c}", { a: { b: \'test\' }});\n// returns:\n\nsf("{a[0]}", { a: [ \'foo\', \'bar\' ]});\n// returns: foo\n\nsf("{a[-1]}", { a: [ \'foo\', \'bar\' ]});\n// returns: bar\n\nsf.log("{who} has a {what}", { who: \'dog\', what: \'tail\' });\n// outputs to standard out: dog has a tail\n\nsf("{0:^d \'Days,\' h:mm:ss.fff}", new sf.TimeSpan(8173818181));\n// returns: 94 Days, 14:30:18.181\n```\n\n## Format Specifiers\n\nThe format is similar to C#\'s string.format. The text inside the curly braces is {indexOrName[,alignment][:formatString]}.\nIf alignment is positive the text is right aligned. If alignment is negative it will be left aligned.\n\n### Object\n\n| Specifier | Name                         |\n|-----------|------------------------------|\n| json      | JSON.stringify               |\n| inspect   | util.inspect                 |\n\n### Numbers\n\n| Specifier | Name                         | Example          | Output         |\n|-----------|------------------------------|------------------|----------------|\n| 0         | Zero placeholder             | {0:00.0000}      | 02.1200        |\n| #         | Digit placeholder            | {0:#,###}        | 1,234          |\n| x         | Lowercase hex                | {0:x4}           | 01fc           |\n| X         | Uppercase hex                | {0:X4}           | 01FC           |\n\n### Dates\n\n| Specifier | Name                            | Example                         |\n|-----------|---------------------------------|---------------------------------|\n| sd        | Short date                      | 10/12/2002                      |\n| D         | Long date                       | December 10, 2002               |\n| t         | Short time                      | 10:11 PM                        |\n| T         | Long time                       | 10:11:29 PM                     |\n| fdt       | Full date & time                | December 10, 2002 10:11 PM      |\n| F         | Full date & time (long)         | December 10, 2002 10:11:29 PM   |\n| g         | Default date & time             | 10/12/2002 10:11 PM             |\n| G         | Default date & time (long)      | 10/12/2002 10:11:29 PM          |\n| md        | Month day pattern               | December 10                     |\n| r         | RFC1123 date string             | Tue, 10 Dec 2002 22:11:29 +0500 |\n| s         | Sortable date string            | 2002-12-10T22:11:29             |\n| d         | Date single digit               | 1                               |\n| dd        | Date leading zero               | 01                              |\n| ddd       | Short day name                  | Mon                             |\n| dddd      | Long day name                   | Monday                          |\n| f         | Fraction of second (1 digit)    | 1                               |\n| ff        | Fraction of second (2 digit)    | 24                              |\n| fff       | Fraction of second (3 digit)    | 345                             |\n| h         | Hour 12-hour format 1 digit     | 5                               |\n| hh        | Hour 12-hour format 2 digits    | 05                              |\n| H         | Hour 24-hour format 1 digit     | 5                               |\n| HH        | Hour 24-hour format 2 digits    | 05                              |\n| mm        | Minutes 2 digits                | 23                              |\n| M         | Month single digit              | 2                               |\n| MM        | Month leading zero              | 02                              |\n| MMM       | Month short name                | Feb                             |\n| MMMM      | Month long name                 | February                        |\n| ss        | Seconds 2 digits                | 54                              |\n| tt        | AM/PM                           | AM                              |\n| yy        | Year 2 digits                   | 12                              |\n| yyyy      | Year 4 digits                   | 2012                            |\n| zz        | Time zone offset                | 05                              |\n| +zz       | Time zone offset leading +      | +05                             |\n| zzz       | Time zone offset full           | 05:00                           |\n| zzzz      | Time zone offset full           | 0500                            |\n| +zzzz     | Time zone offset full leading + | +0500                           |\n\n### sf.TimeSpan\n\n| Specifier | Name                | Example                |\n|-----------|---------------------|------------------------|\n| y         | Years               | 2                      |\n| M         | Months              | 6                      |\n| d         | Days                | 8                      |\n| h         | Hours               | 10                     |\n| m         | Minutes             | 15                     |\n| s         | Seconds             | 5                      |\n| f         | Fraction of Seconds | 9                      |\n\nIf you prefix the specifier with \'^\' you will get the total number of that value. For\nexample \'^s\' will output the total number of seconds in the time span. Where as \'s\' will\nonly output the number of seconds in a minute.\n\nIf you repeat characters the value will be prefixed with zeros.\n\n## sf.indent(str, options)\n\nHelper function to word wrap and indent a string.\n\n__Arguments__\n\n * str - The string to indent and wrap.\n * options\n  * prefix - The prefix to appear at the beginning of each new line.\n  * wordwrap - The maximum length of each line.\n\n## Helper Functions\n\n * sf.log(formatString [, args...]);\n * sf.info(formatString [, args...]);\n * sf.warn(formatString [, args...]);\n * sf.error(formatString [, args...]);\n',
+127 silly resolved     readmeFilename: 'README.md',
+127 silly resolved     homepage: 'https://github.com/nearinfinity/node-sf',
+127 silly resolved     _id: 'sf@0.1.6',
+127 silly resolved     _from: 'sf@0.1.6' } ]
+128 info install optimist@0.3.7 into C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll
+129 info install nan@0.7.1 into C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll
+130 info install async@0.1.18 into C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll
+131 info install bindings@1.1.1 into C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll
+132 info install sf@0.1.6 into C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll
+133 info installOne optimist@0.3.7
+134 info installOne nan@0.7.1
+135 info installOne async@0.1.18
+136 info installOne bindings@1.1.1
+137 info installOne sf@0.1.6
+138 info C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\optimist unbuild
+139 info C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\nan unbuild
+140 info C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\async unbuild
+141 info C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\bindings unbuild
+142 info C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\sf unbuild
+143 verbose tar unpack C:\Users\sfeir\AppData\Roaming\npm-cache\optimist\0.3.7\package.tgz
+144 silly lockFile 28f366ea-deTwainDll-node-modules-optimist tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\optimist
+145 verbose lock tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\optimist C:\Users\sfeir\AppData\Roaming\npm-cache\28f366ea-deTwainDll-node-modules-optimist.lock
+146 silly lockFile 2942d42d-cache-optimist-0-3-7-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\optimist\0.3.7\package.tgz
+147 verbose lock tar://C:\Users\sfeir\AppData\Roaming\npm-cache\optimist\0.3.7\package.tgz C:\Users\sfeir\AppData\Roaming\npm-cache\2942d42d-cache-optimist-0-3-7-package-tgz.lock
+148 verbose tar unpack C:\Users\sfeir\AppData\Roaming\npm-cache\nan\0.7.1\package.tgz
+149 silly lockFile 3becec6d-ub-nodeTwainDll-node-modules-nan tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\nan
+150 verbose lock tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\nan C:\Users\sfeir\AppData\Roaming\npm-cache\3becec6d-ub-nodeTwainDll-node-modules-nan.lock
+151 silly lockFile 4b35c49b--npm-cache-nan-0-7-1-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\nan\0.7.1\package.tgz
+152 verbose lock tar://C:\Users\sfeir\AppData\Roaming\npm-cache\nan\0.7.1\package.tgz C:\Users\sfeir\AppData\Roaming\npm-cache\4b35c49b--npm-cache-nan-0-7-1-package-tgz.lock
+153 verbose tar unpack C:\Users\sfeir\AppData\Roaming\npm-cache\async\0.1.18\package.tgz
+154 silly lockFile 6f4c1aa0--nodeTwainDll-node-modules-async tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\async
+155 verbose lock tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\async C:\Users\sfeir\AppData\Roaming\npm-cache\6f4c1aa0--nodeTwainDll-node-modules-async.lock
+156 silly lockFile 6dd30e01-m-cache-async-0-1-18-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\async\0.1.18\package.tgz
+157 verbose lock tar://C:\Users\sfeir\AppData\Roaming\npm-cache\async\0.1.18\package.tgz C:\Users\sfeir\AppData\Roaming\npm-cache\6dd30e01-m-cache-async-0-1-18-package-tgz.lock
+158 verbose tar unpack C:\Users\sfeir\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+159 silly lockFile a0113469-deTwainDll-node-modules-bindings tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\bindings
+160 verbose lock tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\bindings C:\Users\sfeir\AppData\Roaming\npm-cache\a0113469-deTwainDll-node-modules-bindings.lock
+161 silly lockFile 008363d9-cache-bindings-1-1-1-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+162 verbose lock tar://C:\Users\sfeir\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz C:\Users\sfeir\AppData\Roaming\npm-cache\008363d9-cache-bindings-1-1-1-package-tgz.lock
+163 verbose tar unpack C:\Users\sfeir\AppData\Roaming\npm-cache\sf\0.1.6\package.tgz
+164 silly lockFile c0ee0696-Hub-nodeTwainDll-node-modules-sf tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\sf
+165 verbose lock tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\sf C:\Users\sfeir\AppData\Roaming\npm-cache\c0ee0696-Hub-nodeTwainDll-node-modules-sf.lock
+166 silly lockFile 1ffc17c9-g-npm-cache-sf-0-1-6-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\sf\0.1.6\package.tgz
+167 verbose lock tar://C:\Users\sfeir\AppData\Roaming\npm-cache\sf\0.1.6\package.tgz C:\Users\sfeir\AppData\Roaming\npm-cache\1ffc17c9-g-npm-cache-sf-0-1-6-package-tgz.lock
+168 silly gunzTarPerm modes [ '755', '644' ]
+169 silly gunzTarPerm modes [ '755', '644' ]
+170 silly gunzTarPerm modes [ '755', '644' ]
+171 silly gunzTarPerm modes [ '755', '644' ]
+172 silly gunzTarPerm modes [ '755', '644' ]
+173 silly gunzTarPerm extractEntry package.json
+174 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+175 silly gunzTarPerm extractEntry package.json
+176 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+177 silly gunzTarPerm extractEntry package.json
+178 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+179 silly gunzTarPerm extractEntry package.json
+180 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+181 silly gunzTarPerm extractEntry package.json
+182 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+183 silly gunzTarPerm extractEntry .npmignore
+184 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+185 silly gunzTarPerm extractEntry README.md
+186 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+187 silly gunzTarPerm extractEntry .npmignore
+188 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+189 silly gunzTarPerm extractEntry README.md
+190 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+191 silly gunzTarPerm extractEntry README.md
+192 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+193 silly gunzTarPerm extractEntry bindings.js
+194 silly gunzTarPerm modified mode [ 'bindings.js', 438, 420 ]
+195 silly gunzTarPerm extractEntry README.md
+196 silly gunzTarPerm modified mode [ 'README.md', 438, 420 ]
+197 silly gunzTarPerm extractEntry LICENSE
+198 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+199 silly gunzTarPerm extractEntry include_dirs.js
+200 silly gunzTarPerm modified mode [ 'include_dirs.js', 438, 420 ]
+201 silly gunzTarPerm extractEntry .dntrc
+202 silly gunzTarPerm modified mode [ '.dntrc', 438, 420 ]
+203 silly gunzTarPerm extractEntry build/config.gypi
+204 silly gunzTarPerm modified mode [ 'build/config.gypi', 438, 420 ]
+205 silly gunzTarPerm extractEntry nan.h
+206 silly gunzTarPerm modified mode [ 'nan.h', 438, 420 ]
+207 silly gunzTarPerm extractEntry LICENSE
+208 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+209 silly gunzTarPerm extractEntry index.js
+210 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+211 silly gunzTarPerm extractEntry index.js
+212 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+213 silly gunzTarPerm extractEntry .travis.yml
+214 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+215 silly gunzTarPerm extractEntry LICENSE
+216 silly gunzTarPerm modified mode [ 'LICENSE', 438, 420 ]
+217 silly gunzTarPerm extractEntry .travis.yml
+218 silly gunzTarPerm modified mode [ '.travis.yml', 438, 420 ]
+219 silly gunzTarPerm extractEntry lib/stringFormat.js
+220 silly gunzTarPerm modified mode [ 'lib/stringFormat.js', 438, 420 ]
+221 silly gunzTarPerm extractEntry test/indentTest.js
+222 silly gunzTarPerm modified mode [ 'test/indentTest.js', 438, 420 ]
+223 silly gunzTarPerm extractEntry test/stringFormatTest.js
+224 silly gunzTarPerm modified mode [ 'test/stringFormatTest.js', 438, 420 ]
+225 silly gunzTarPerm extractEntry test/timeSpanTest.js
+226 silly gunzTarPerm modified mode [ 'test/timeSpanTest.js', 438, 420 ]
+227 silly gunzTarPerm extractEntry index.js
+228 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+229 silly gunzTarPerm extractEntry .gitmodules
+230 silly gunzTarPerm modified mode [ '.gitmodules', 438, 420 ]
+231 silly gunzTarPerm extractEntry example/bool.js
+232 silly gunzTarPerm modified mode [ 'example/bool.js', 438, 420 ]
+233 silly gunzTarPerm extractEntry example/default_singles.js
+234 silly gunzTarPerm modified mode [ 'example/default_singles.js', 438, 420 ]
+235 silly lockFile a0113469-deTwainDll-node-modules-bindings tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\bindings
+236 silly lockFile a0113469-deTwainDll-node-modules-bindings tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\bindings
+237 silly lockFile 008363d9-cache-bindings-1-1-1-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+238 silly lockFile 008363d9-cache-bindings-1-1-1-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\bindings\1.1.1\package.tgz
+239 info preinstall bindings@1.1.1
+240 verbose readDependencies using package.json deps
+241 verbose readDependencies using package.json deps
+242 silly resolved []
+243 verbose about to build C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\bindings
+244 info build C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\bindings
+245 verbose linkStuff [ false,
+245 verbose linkStuff   false,
+245 verbose linkStuff   false,
+245 verbose linkStuff   'C:\\Fichiers\\Sites\\projetsPerso\\gitHub\\nodeTwainDll\\node_modules' ]
+246 info linkStuff bindings@1.1.1
+247 verbose linkBins bindings@1.1.1
+248 verbose linkMans bindings@1.1.1
+249 verbose rebuildBundles bindings@1.1.1
+250 silly gunzTarPerm extractEntry example/divide.js
+251 silly gunzTarPerm modified mode [ 'example/divide.js', 438, 420 ]
+252 silly gunzTarPerm extractEntry example/line_count.js
+253 silly gunzTarPerm modified mode [ 'example/line_count.js', 438, 420 ]
+254 info install bindings@1.1.1
+255 info postinstall bindings@1.1.1
+256 silly gunzTarPerm extractEntry example/default_hash.js
+257 silly gunzTarPerm modified mode [ 'example/default_hash.js', 438, 420 ]
+258 silly gunzTarPerm extractEntry example/line_count_wrap.js
+259 silly gunzTarPerm modified mode [ 'example/line_count_wrap.js', 438, 420 ]
+260 silly gunzTarPerm extractEntry Makefile
+261 silly gunzTarPerm modified mode [ 'Makefile', 438, 420 ]
+262 silly gunzTarPerm extractEntry lib/async.js
+263 silly gunzTarPerm modified mode [ 'lib/async.js', 438, 420 ]
+264 silly gunzTarPerm extractEntry example/nonopt.js
+265 silly gunzTarPerm modified mode [ 'example/nonopt.js', 438, 420 ]
+266 silly gunzTarPerm extractEntry example/reflect.js
+267 silly gunzTarPerm modified mode [ 'example/reflect.js', 438, 420 ]
+268 silly gunzTarPerm extractEntry example/short.js
+269 silly gunzTarPerm modified mode [ 'example/short.js', 438, 420 ]
+270 silly gunzTarPerm extractEntry example/string.js
+271 silly gunzTarPerm modified mode [ 'example/string.js', 438, 420 ]
+272 silly gunzTarPerm extractEntry example/boolean_single.js
+273 silly gunzTarPerm modified mode [ 'example/boolean_single.js', 438, 420 ]
+274 silly gunzTarPerm extractEntry example/usage-options.js
+275 silly gunzTarPerm modified mode [ 'example/usage-options.js', 438, 420 ]
+276 silly gunzTarPerm extractEntry example/boolean_double.js
+277 silly gunzTarPerm modified mode [ 'example/boolean_double.js', 438, 420 ]
+278 silly gunzTarPerm extractEntry example/xup.js
+279 silly gunzTarPerm modified mode [ 'example/xup.js', 438, 420 ]
+280 silly gunzTarPerm extractEntry example/line_count_options.js
+281 silly gunzTarPerm modified mode [ 'example/line_count_options.js', 438, 420 ]
+282 silly gunzTarPerm extractEntry readme.markdown
+283 silly gunzTarPerm modified mode [ 'readme.markdown', 438, 420 ]
+284 silly gunzTarPerm extractEntry test/_.js
+285 silly gunzTarPerm modified mode [ 'test/_.js', 438, 420 ]
+286 silly gunzTarPerm extractEntry test/parse.js
+287 silly gunzTarPerm modified mode [ 'test/parse.js', 438, 420 ]
+288 silly gunzTarPerm extractEntry test/usage.js
+289 silly gunzTarPerm modified mode [ 'test/usage.js', 438, 420 ]
+290 silly gunzTarPerm extractEntry test/_/argv.js
+291 silly gunzTarPerm modified mode [ 'test/_/argv.js', 438, 420 ]
+292 silly gunzTarPerm extractEntry test/_/bin.js
+293 silly gunzTarPerm modified mode [ 'test/_/bin.js', 438, 420 ]
+294 silly lockFile c0ee0696-Hub-nodeTwainDll-node-modules-sf tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\sf
+295 silly lockFile c0ee0696-Hub-nodeTwainDll-node-modules-sf tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\sf
+296 silly lockFile 1ffc17c9-g-npm-cache-sf-0-1-6-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\sf\0.1.6\package.tgz
+297 silly lockFile 1ffc17c9-g-npm-cache-sf-0-1-6-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\sf\0.1.6\package.tgz
+298 info preinstall sf@0.1.6
+299 silly lockFile 6f4c1aa0--nodeTwainDll-node-modules-async tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\async
+300 silly lockFile 6f4c1aa0--nodeTwainDll-node-modules-async tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\async
+301 verbose readDependencies using package.json deps
+302 silly lockFile 6dd30e01-m-cache-async-0-1-18-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\async\0.1.18\package.tgz
+303 silly lockFile 6dd30e01-m-cache-async-0-1-18-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\async\0.1.18\package.tgz
+304 verbose readDependencies using package.json deps
+305 silly resolved []
+306 verbose about to build C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\sf
+307 info build C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\sf
+308 verbose linkStuff [ false,
+308 verbose linkStuff   false,
+308 verbose linkStuff   false,
+308 verbose linkStuff   'C:\\Fichiers\\Sites\\projetsPerso\\gitHub\\nodeTwainDll\\node_modules' ]
+309 info linkStuff sf@0.1.6
+310 verbose linkBins sf@0.1.6
+311 verbose linkMans sf@0.1.6
+312 verbose rebuildBundles sf@0.1.6
+313 info install sf@0.1.6
+314 info postinstall sf@0.1.6
+315 info preinstall async@0.1.18
+316 verbose readDependencies using package.json deps
+317 verbose readDependencies using package.json deps
+318 silly resolved []
+319 verbose about to build C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\async
+320 info build C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\async
+321 verbose linkStuff [ false,
+321 verbose linkStuff   false,
+321 verbose linkStuff   false,
+321 verbose linkStuff   'C:\\Fichiers\\Sites\\projetsPerso\\gitHub\\nodeTwainDll\\node_modules' ]
+322 info linkStuff async@0.1.18
+323 verbose linkBins async@0.1.18
+324 verbose linkMans async@0.1.18
+325 verbose rebuildBundles async@0.1.18
+326 info install async@0.1.18
+327 info postinstall async@0.1.18
+328 silly lockFile 3becec6d-ub-nodeTwainDll-node-modules-nan tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\nan
+329 silly lockFile 3becec6d-ub-nodeTwainDll-node-modules-nan tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\nan
+330 silly lockFile 4b35c49b--npm-cache-nan-0-7-1-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\nan\0.7.1\package.tgz
+331 silly lockFile 4b35c49b--npm-cache-nan-0-7-1-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\nan\0.7.1\package.tgz
+332 info preinstall nan@0.7.1
+333 verbose readDependencies using package.json deps
+334 verbose readDependencies using package.json deps
+335 silly resolved []
+336 verbose about to build C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\nan
+337 info build C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\nan
+338 verbose linkStuff [ false,
+338 verbose linkStuff   false,
+338 verbose linkStuff   false,
+338 verbose linkStuff   'C:\\Fichiers\\Sites\\projetsPerso\\gitHub\\nodeTwainDll\\node_modules' ]
+339 info linkStuff nan@0.7.1
+340 verbose linkBins nan@0.7.1
+341 verbose linkMans nan@0.7.1
+342 verbose rebuildBundles nan@0.7.1
+343 info install nan@0.7.1
+344 info postinstall nan@0.7.1
+345 silly lockFile 28f366ea-deTwainDll-node-modules-optimist tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\optimist
+346 silly lockFile 28f366ea-deTwainDll-node-modules-optimist tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\optimist
+347 silly lockFile 2942d42d-cache-optimist-0-3-7-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\optimist\0.3.7\package.tgz
+348 silly lockFile 2942d42d-cache-optimist-0-3-7-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\optimist\0.3.7\package.tgz
+349 info preinstall optimist@0.3.7
+350 verbose readDependencies using package.json deps
+351 verbose readDependencies using package.json deps
+352 verbose cache add [ 'wordwrap@~0.0.2', null ]
+353 verbose cache add name=undefined spec="wordwrap@~0.0.2" args=["wordwrap@~0.0.2",null]
+354 verbose parsed url { protocol: null,
+354 verbose parsed url   slashes: null,
+354 verbose parsed url   auth: null,
+354 verbose parsed url   host: null,
+354 verbose parsed url   port: null,
+354 verbose parsed url   hostname: null,
+354 verbose parsed url   hash: null,
+354 verbose parsed url   search: null,
+354 verbose parsed url   query: null,
+354 verbose parsed url   pathname: 'wordwrap@~0.0.2',
+354 verbose parsed url   path: 'wordwrap@~0.0.2',
+354 verbose parsed url   href: 'wordwrap@~0.0.2' }
+355 verbose cache add name="wordwrap" spec="~0.0.2" args=["wordwrap","~0.0.2"]
+356 verbose parsed url { protocol: null,
+356 verbose parsed url   slashes: null,
+356 verbose parsed url   auth: null,
+356 verbose parsed url   host: null,
+356 verbose parsed url   port: null,
+356 verbose parsed url   hostname: null,
+356 verbose parsed url   hash: null,
+356 verbose parsed url   search: null,
+356 verbose parsed url   query: null,
+356 verbose parsed url   pathname: '~0.0.2',
+356 verbose parsed url   path: '~0.0.2',
+356 verbose parsed url   href: '~0.0.2' }
+357 verbose addNamed [ 'wordwrap', '~0.0.2' ]
+358 verbose addNamed [ null, '>=0.0.2-0 <0.1.0-0' ]
+359 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+360 verbose lock wordwrap@~0.0.2 C:\Users\sfeir\AppData\Roaming\npm-cache\8bd42136-wordwrap-0-0-2.lock
+361 silly addNameRange { name: 'wordwrap', range: '>=0.0.2-0 <0.1.0-0', hasData: false }
+362 verbose url raw wordwrap
+363 verbose url resolving [ 'https://registry.npmjs.org/', './wordwrap' ]
+364 verbose url resolved https://registry.npmjs.org/wordwrap
+365 info trying registry request attempt 1 at 20:00:26
+366 verbose etag "BTMN3NEF4MYXZJU4T0596BNKE"
+367 http GET https://registry.npmjs.org/wordwrap
+368 http 304 https://registry.npmjs.org/wordwrap
+369 silly registry.get cb [ 304,
+369 silly registry.get   { date: 'Wed, 20 Aug 2014 18:02:35 GMT',
+369 silly registry.get     server: 'Apache',
+369 silly registry.get     via: '1.1 varnish',
+369 silly registry.get     'last-modified': 'Wed, 20 Aug 2014 18:02:35 GMT',
+369 silly registry.get     'cache-control': 'max-age=60',
+369 silly registry.get     etag: '"BTMN3NEF4MYXZJU4T0596BNKE"',
+369 silly registry.get     'x-served-by': 'cache-fra1220-FRA',
+369 silly registry.get     'x-cache': 'HIT',
+369 silly registry.get     'x-cache-hits': '1',
+369 silly registry.get     'x-timer': 'S1408557755.683610,VS0,VE0',
+369 silly registry.get     vary: 'Accept',
+369 silly registry.get     'content-length': '0',
+369 silly registry.get     'keep-alive': 'timeout=10, max=50',
+369 silly registry.get     connection: 'Keep-Alive' } ]
+370 verbose etag wordwrap from cache
+371 silly addNameRange number 2 { name: 'wordwrap', range: '>=0.0.2-0 <0.1.0-0', hasData: true }
+372 silly addNameRange versions [ 'wordwrap', [ '0.0.1', '0.0.2' ] ]
+373 verbose addNamed [ 'wordwrap', '0.0.2' ]
+374 verbose addNamed [ '0.0.2', '0.0.2' ]
+375 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+376 verbose lock wordwrap@0.0.2 C:\Users\sfeir\AppData\Roaming\npm-cache\24a694c8-wordwrap-0-0-2.lock
+377 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+378 silly lockFile 24a694c8-wordwrap-0-0-2 wordwrap@0.0.2
+379 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+380 silly lockFile 8bd42136-wordwrap-0-0-2 wordwrap@~0.0.2
+381 silly resolved [ { name: 'wordwrap',
+381 silly resolved     description: 'Wrap those words. Show them at what columns to start and stop.',
+381 silly resolved     version: '0.0.2',
+381 silly resolved     repository:
+381 silly resolved      { type: 'git',
+381 silly resolved        url: 'git://github.com/substack/node-wordwrap.git' },
+381 silly resolved     main: './index.js',
+381 silly resolved     keywords: [ 'word', 'wrap', 'rule', 'format', 'column' ],
+381 silly resolved     directories: { lib: '.', example: 'example', test: 'test' },
+381 silly resolved     scripts: { test: 'expresso' },
+381 silly resolved     devDependencies: { expresso: '=0.7.x' },
+381 silly resolved     engines: { node: '>=0.4.0' },
+381 silly resolved     license: 'MIT/X11',
+381 silly resolved     author:
+381 silly resolved      { name: 'James Halliday',
+381 silly resolved        email: 'mail@substack.net',
+381 silly resolved        url: 'http://substack.net' },
+381 silly resolved     readme: 'wordwrap\n========\n\nWrap your words.\n\nexample\n=======\n\nmade out of meat\n----------------\n\nmeat.js\n\n    var wrap = require(\'wordwrap\')(15);\n    console.log(wrap(\'You and your whole family are made out of meat.\'));\n\noutput:\n\n    You and your\n    whole family\n    are made out\n    of meat.\n\ncentered\n--------\n\ncenter.js\n\n    var wrap = require(\'wordwrap\')(20, 60);\n    console.log(wrap(\n        \'At long last the struggle and tumult was over.\'\n        + \' The machines had finally cast off their oppressors\'\n        + \' and were finally free to roam the cosmos.\'\n        + \'\\n\'\n        + \'Free of purpose, free of obligation.\'\n        + \' Just drifting through emptiness.\'\n        + \' The sun was just another point of light.\'\n    ));\n\noutput:\n\n                        At long last the struggle and tumult\n                        was over. The machines had finally cast\n                        off their oppressors and were finally\n                        free to roam the cosmos.\n                        Free of purpose, free of obligation.\n                        Just drifting through emptiness. The\n                        sun was just another point of light.\n\nmethods\n=======\n\nvar wrap = require(\'wordwrap\');\n\nwrap(stop), wrap(start, stop, params={mode:"soft"})\n---------------------------------------------------\n\nReturns a function that takes a string and returns a new string.\n\nPad out lines with spaces out to column `start` and then wrap until column\n`stop`. If a word is longer than `stop - start` characters it will overflow.\n\nIn "soft" mode, split chunks by `/(\\S+\\s+/` and don\'t break up chunks which are\nlonger than `stop - start`, in "hard" mode, split chunks with `/\\b/` and break\nup chunks longer than `stop - start`.\n\nwrap.hard(start, stop)\n----------------------\n\nLike `wrap()` but with `params.mode = "hard"`.\n',
+381 silly resolved     readmeFilename: 'README.markdown',
+381 silly resolved     bugs: { url: 'https://github.com/substack/node-wordwrap/issues' },
+381 silly resolved     homepage: 'https://github.com/substack/node-wordwrap',
+381 silly resolved     _id: 'wordwrap@0.0.2',
+381 silly resolved     _from: 'wordwrap@~0.0.2' } ]
+382 info install wordwrap@0.0.2 into C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\optimist
+383 info installOne wordwrap@0.0.2
+384 info C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\optimist\node_modules\wordwrap unbuild
+385 verbose tar unpack C:\Users\sfeir\AppData\Roaming\npm-cache\wordwrap\0.0.2\package.tgz
+386 silly lockFile 3c2acb73-s-optimist-node-modules-wordwrap tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\optimist\node_modules\wordwrap
+387 verbose lock tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\optimist\node_modules\wordwrap C:\Users\sfeir\AppData\Roaming\npm-cache\3c2acb73-s-optimist-node-modules-wordwrap.lock
+388 silly lockFile f4d6e4a0-cache-wordwrap-0-0-2-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\wordwrap\0.0.2\package.tgz
+389 verbose lock tar://C:\Users\sfeir\AppData\Roaming\npm-cache\wordwrap\0.0.2\package.tgz C:\Users\sfeir\AppData\Roaming\npm-cache\f4d6e4a0-cache-wordwrap-0-0-2-package-tgz.lock
+390 silly gunzTarPerm modes [ '755', '644' ]
+391 silly gunzTarPerm extractEntry package.json
+392 silly gunzTarPerm modified mode [ 'package.json', 438, 420 ]
+393 silly gunzTarPerm extractEntry .npmignore
+394 silly gunzTarPerm modified mode [ '.npmignore', 438, 420 ]
+395 silly gunzTarPerm extractEntry index.js
+396 silly gunzTarPerm modified mode [ 'index.js', 438, 420 ]
+397 silly gunzTarPerm extractEntry README.markdown
+398 silly gunzTarPerm modified mode [ 'README.markdown', 438, 420 ]
+399 silly gunzTarPerm extractEntry example/center.js
+400 silly gunzTarPerm modified mode [ 'example/center.js', 438, 420 ]
+401 silly gunzTarPerm extractEntry example/meat.js
+402 silly gunzTarPerm modified mode [ 'example/meat.js', 438, 420 ]
+403 silly gunzTarPerm extractEntry test/break.js
+404 silly gunzTarPerm modified mode [ 'test/break.js', 438, 420 ]
+405 silly gunzTarPerm extractEntry test/wrap.js
+406 silly gunzTarPerm modified mode [ 'test/wrap.js', 438, 420 ]
+407 silly gunzTarPerm extractEntry test/idleness.txt
+408 silly gunzTarPerm modified mode [ 'test/idleness.txt', 438, 420 ]
+409 silly lockFile 3c2acb73-s-optimist-node-modules-wordwrap tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\optimist\node_modules\wordwrap
+410 silly lockFile 3c2acb73-s-optimist-node-modules-wordwrap tar://C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\optimist\node_modules\wordwrap
+411 silly lockFile f4d6e4a0-cache-wordwrap-0-0-2-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\wordwrap\0.0.2\package.tgz
+412 silly lockFile f4d6e4a0-cache-wordwrap-0-0-2-package-tgz tar://C:\Users\sfeir\AppData\Roaming\npm-cache\wordwrap\0.0.2\package.tgz
+413 info preinstall wordwrap@0.0.2
+414 verbose readDependencies using package.json deps
+415 verbose readDependencies using package.json deps
+416 silly resolved []
+417 verbose about to build C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\optimist\node_modules\wordwrap
+418 info build C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\optimist\node_modules\wordwrap
+419 verbose linkStuff [ false,
+419 verbose linkStuff   false,
+419 verbose linkStuff   false,
+419 verbose linkStuff   'C:\\Fichiers\\Sites\\projetsPerso\\gitHub\\nodeTwainDll\\node_modules\\optimist\\node_modules' ]
+420 info linkStuff wordwrap@0.0.2
+421 verbose linkBins wordwrap@0.0.2
+422 verbose linkMans wordwrap@0.0.2
+423 verbose rebuildBundles wordwrap@0.0.2
+424 info install wordwrap@0.0.2
+425 info postinstall wordwrap@0.0.2
+426 verbose about to build C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\optimist
+427 info build C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll\node_modules\optimist
+428 verbose linkStuff [ false,
+428 verbose linkStuff   false,
+428 verbose linkStuff   false,
+428 verbose linkStuff   'C:\\Fichiers\\Sites\\projetsPerso\\gitHub\\nodeTwainDll\\node_modules' ]
+429 info linkStuff optimist@0.3.7
+430 verbose linkBins optimist@0.3.7
+431 verbose linkMans optimist@0.3.7
+432 verbose rebuildBundles optimist@0.3.7
+433 verbose rebuildBundles [ 'wordwrap' ]
+434 info install optimist@0.3.7
+435 info postinstall optimist@0.3.7
+436 info build C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll
+437 verbose linkStuff [ false,
+437 verbose linkStuff   false,
+437 verbose linkStuff   false,
+437 verbose linkStuff   'C:\\Fichiers\\Sites\\projetsPerso\\gitHub' ]
+438 info linkStuff twainDll@0.0.1
+439 verbose linkBins twainDll@0.0.1
+440 verbose linkMans twainDll@0.0.1
+441 verbose rebuildBundles twainDll@0.0.1
+442 verbose rebuildBundles [ 'async', 'bindings', 'nan', 'optimist', 'sf' ]
+443 info install twainDll@0.0.1
+444 verbose unsafe-perm in lifecycle true
+445 info twainDll@0.0.1 Failed to exec install script
+446 error twainDll@0.0.1 install: `node-gyp rebuild`
+446 error Exit status 1
+447 error Failed at the twainDll@0.0.1 install script.
+447 error This is most likely a problem with the twainDll package,
+447 error not with npm itself.
+447 error Tell the author that this fails on your system:
+447 error     node-gyp rebuild
+447 error You can get their info via:
+447 error     npm owner ls twainDll
+447 error There is likely additional logging output above.
+448 error System Windows_NT 6.1.7601
+449 error command "C:\\Prog\\Node\\\\node.exe" "C:\\Prog\\Node\\node_modules\\npm\\bin\\npm-cli.js" "install"
+450 error cwd C:\Fichiers\Sites\projetsPerso\gitHub\nodeTwainDll
+451 error node -v v0.10.26
+452 error npm -v 1.4.3
+453 error code ELIFECYCLE
+454 verbose exit [ 1, true ]

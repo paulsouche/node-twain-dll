@@ -1,0 +1,33 @@
+{
+  "name": "twainDll",
+  "version": "0.0.1",
+  "description": "node twain dll wrapper",
+  "author": {
+    "name": "Paul Souche",
+    "email": "paul.souche@gmail.com"
+  },
+  "main": "./twainDll",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/paulsouche/node-twain-dll.git"
+  },
+  "maintainers": [
+    {
+      "name": "Paul Souche",
+      "email": "paul.souche@gmail.com"
+    }
+  ],
+  "dependencies": {
+    "bindings": "1.1.1",
+    "async": "0.1.18",
+    "sf": "0.1.6",
+    "optimist": "~0.3.4",
+    "nan": "~0.7.0"
+  },
+  "devDependencies": {
+
+  },
+  "engines": {
+    "node": ">= 0.8.0"
+  }
+}
