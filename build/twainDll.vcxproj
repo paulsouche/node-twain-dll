@@ -11,7 +11,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{ED59F52E-40C3-413F-E93F-D670176DA9DF}</ProjectGuid>
+    <ProjectGuid>{7570D06E-F4F7-3A4D-5B17-037FE731964E}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>twainDll</RootNamespace>
   </PropertyGroup>
@@ -44,7 +44,7 @@
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\sfeir\.node-gyp\0.10.26\src;C:\Users\sfeir\.node-gyp\0.10.26\deps\uv\include;C:\Users\sfeir\.node-gyp\0.10.26\deps\v8\include;..\node_modules\nan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\sfeir\.node-gyp\0.10.31\src;C:\Users\sfeir\.node-gyp\0.10.31\deps\uv\include;C:\Users\sfeir\.node-gyp\0.10.31\deps\v8\include;..\node_modules\nan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <BasicRuntimeChecks>EnableFastChecks</BasicRuntimeChecks>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -61,7 +61,7 @@
       <WarningLevel>Level3</WarningLevel>
     </ClCompile>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;C:\Users\sfeir\.node-gyp\0.10.26\$(Configuration)\node.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\Users\sfeir\.node-gyp\0.10.31\$(Configuration)\node.lib&quot;</AdditionalDependencies>
       <AllowIsolation>true</AllowIsolation>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <GenerateDebugInformation>true</GenerateDebugInformation>
@@ -72,13 +72,13 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\sfeir\.node-gyp\0.10.26\src;C:\Users\sfeir\.node-gyp\0.10.26\deps\uv\include;C:\Users\sfeir\.node-gyp\0.10.26\deps\v8\include;..\node_modules\nan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\sfeir\.node-gyp\0.10.31\src;C:\Users\sfeir\.node-gyp\0.10.31\deps\uv\include;C:\Users\sfeir\.node-gyp\0.10.31\deps\v8\include;..\node_modules\nan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;BUILDING_V8_SHARED=1;BUILDING_UV_SHARED=1;BUILDING_NODE_EXTENSION;DEBUG;_DEBUG;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <ClCompile>
-      <AdditionalIncludeDirectories>C:\Users\sfeir\.node-gyp\0.10.26\src;C:\Users\sfeir\.node-gyp\0.10.26\deps\uv\include;C:\Users\sfeir\.node-gyp\0.10.26\deps\v8\include;..\node_modules\nan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\sfeir\.node-gyp\0.10.31\src;C:\Users\sfeir\.node-gyp\0.10.31\deps\uv\include;C:\Users\sfeir\.node-gyp\0.10.31\deps\v8\include;..\node_modules\nan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <AdditionalOptions>/MP %(AdditionalOptions)</AdditionalOptions>
       <BufferSecurityCheck>true</BufferSecurityCheck>
       <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
@@ -103,7 +103,7 @@
       <AdditionalOptions>/LTCG %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <Link>
-      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;C:\Users\sfeir\.node-gyp\0.10.26\$(Configuration)\node.lib</AdditionalDependencies>
+      <AdditionalDependencies>kernel32.lib;user32.lib;gdi32.lib;winspool.lib;comdlg32.lib;advapi32.lib;shell32.lib;ole32.lib;oleaut32.lib;uuid.lib;odbc32.lib;DelayImp.lib;&quot;C:\Users\sfeir\.node-gyp\0.10.31\$(Configuration)\node.lib&quot;</AdditionalDependencies>
       <AllowIsolation>true</AllowIsolation>
       <DataExecutionPrevention>true</DataExecutionPrevention>
       <EnableCOMDATFolding>true</EnableCOMDATFolding>
@@ -117,7 +117,7 @@
       <TargetMachine>MachineX64</TargetMachine>
     </Link>
     <ResourceCompile>
-      <AdditionalIncludeDirectories>C:\Users\sfeir\.node-gyp\0.10.26\src;C:\Users\sfeir\.node-gyp\0.10.26\deps\uv\include;C:\Users\sfeir\.node-gyp\0.10.26\deps\v8\include;..\node_modules\nan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <AdditionalIncludeDirectories>C:\Users\sfeir\.node-gyp\0.10.31\src;C:\Users\sfeir\.node-gyp\0.10.31\deps\uv\include;C:\Users\sfeir\.node-gyp\0.10.31\deps\v8\include;..\node_modules\nan;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <PreprocessorDefinitions>WIN32;_CRT_SECURE_NO_DEPRECATE;_CRT_NONSTDC_NO_DEPRECATE;BUILDING_V8_SHARED=1;BUILDING_UV_SHARED=1;BUILDING_NODE_EXTENSION;%(PreprocessorDefinitions);%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ResourceCompile>
   </ItemDefinitionGroup>
@@ -127,8 +127,8 @@
   <ItemGroup>
     <ClCompile Include="..\src\twainDll.cpp"/>
     <ClCompile Include="..\src\twainDll_win.cpp"/>
-    <ClCompile Include="..\src\win\enumser.cpp"/>
     <ClCompile Include="..\src\win\disphelper.c"/>
+    <ClCompile Include="..\src\win\enumser.cpp"/>
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets"/>
   <ImportGroup Label="ExtensionTargets"/>

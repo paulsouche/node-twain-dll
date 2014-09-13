@@ -1,0 +1,27 @@
+{
+  "undef": true,
+  "camelcase" : true,
+  "curly" : true,
+  "eqeqeq" : true,
+  "forin" : true,
+  "immed" : true,
+  "latedef" : true,
+  "newcap" : true,
+  "strict" : true,
+  "trailing" : true,
+  "globals": {
+    "require"      : false,
+    "module"       : false,
+    "exports"      : false,
+    "process"      : false,
+    "Buffer"       : false,
+    "__dirname"    : false,
+    "setTimeout"   : false,
+    "clearTimeout" : false,
+    "console"      : {
+      "info"  : false,
+      "warn"  : false,
+      "error" : false
+    }
+  }
+}

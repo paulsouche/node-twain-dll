@@ -1,12 +1,12 @@
 
 
-#include "serialport.h"
+#include "twainDll.h"
 #include "queue.h"
 
 #ifdef WIN32
 #define strcasecmp stricmp
 #else
-#include "serialport_poller.h"
+#include "twainDll_poller.h"
 #endif
 
 uv_mutex_t write_queue_mutex;

@@ -1,0 +1,30 @@
+{
+    "undef": true,
+    "camelcase" : true,
+    "curly" : true,
+    "eqeqeq" : true,
+    "forin" : true,
+    "immed" : true,
+    "latedef" : true,
+    "newcap" : true,
+    "unused": true,
+    "strict" : true,
+    "trailing" : true,
+    "globals": {
+        "require": false,
+        "Buffer": false,
+        "exports": false,
+        "jasmine": false,
+        "module": false,
+        "after": false,
+        "afterEach": false,
+        "waitsFor": false,
+        "runs": false,
+        "before": false,
+        "beforeEach": false,
+        "describe": false,
+        "expect": false,
+        "it": false,
+        "spyOn": false
+    }
+}

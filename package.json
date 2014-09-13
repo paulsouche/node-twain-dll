@@ -15,6 +15,9 @@
     {
       "name": "Paul Souche",
       "email": "paul.souche@gmail.com"
+    },
+    {
+      "name": "Gregory Ruiz"
     }
   ],
   "dependencies": {
@@ -25,7 +28,12 @@
     "nan": "~0.7.0"
   },
   "devDependencies": {
-
+    "grunt-contrib-clean": "~0.5.0",
+    "grunt-contrib-copy": "~0.4.1",
+    "grunt-contrib-jshint": "^0.10.0",
+    "grunt-contrib-watch": "~0.5.3",
+    "grunt-jasmine-node": "^0.2.1",
+    "load-grunt-tasks": "~0.2.0"
   },
   "engines": {
     "node": ">= 0.8.0"
