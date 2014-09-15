@@ -3,7 +3,9 @@
 
 var util = require('util'),
   stream = require('stream'),
-  EventEmitter = require('events').EventEmitter;
+  EventEmitter = require('events').EventEmitter,
+  binding = require('./build/twainDll.node');
+
 
 function TwainDllFactory() {
   var factory = this;
@@ -11,13 +13,17 @@ function TwainDllFactory() {
   function TwainDll(options) {
 
 
-  }
 
+  }
 
   util.inherits(TwainDll, stream.Stream);
 
-  factory.TwainDll = TwainDll;
+  TwainDll.prototype.goScan = function() {
+    factory.binding.goScan();
+  };
 
+  factory.TwainDll = TwainDll;
+  factory.binding = binding;
 }
 
 util.inherits(TwainDllFactory,EventEmitter);
